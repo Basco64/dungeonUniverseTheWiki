@@ -1,0 +1,68 @@
+{
+  "name": "Enemies",
+  "data": [
+    {
+      "id": "1",
+      "name": "Wolf",
+      "boss": false,
+      "levels": "1-2",
+      "health": "80-125",
+      "loot": "loot du loup",
+      "pic": "/enemies/wolf.png"
+    },
+    {
+      "id": "2",
+      "name": "Small Spider",
+      "boss": false,
+      "levels": "3-5",
+      "health": "180-320",
+      "loot": "loot de l'araignée",
+      "pic": "/enemies/small spider.png"
+    },
+    {
+      "id": "3",
+      "name": "Bandit",
+      "boss": false,
+      "levels": "5-7",
+      "health": "320-500",
+      "loot": "loot du bandit",
+      "pic": "/enemies/bandit.png"
+    },
+    {
+      "id": "4",
+      "name": "Bandit Leader",
+      "boss": true,
+      "levels": "10",
+      "health": "1245",
+      "loot": "loot du bandit",
+      "pic": "/enemies/bandit leader.png"
+    },
+    {
+      "id": "5",
+      "name": "Ursus, The Raging",
+      "boss": true,
+      "levels": "12",
+      "health": "5125",
+      "loot": "loot du bandit",
+      "pic": "/enemies/ursus.png"
+    },
+    {
+      "id": "6",
+      "name": "Small Toad",
+      "boss": false,
+      "levels": "8-10",
+      "health": "605-845",
+      "loot": "loot small toad",
+      "pic": "/enemies/small toad.png"
+    },
+    {
+      "id": "7",
+      "name": "Valley Eagle",
+      "boss": false,
+      "levels": "11-13",
+      "health": "605-845",
+      "loot": "loot eagle",
+      "pic": "/enemies/valley eagle.png"
+    }
+  ]
+}

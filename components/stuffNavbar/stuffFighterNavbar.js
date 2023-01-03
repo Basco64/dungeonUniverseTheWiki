@@ -7,100 +7,96 @@ export default function StuffFighterNavbar() {
     <Flex py={10} direction={"row"} align="center">
       <Link href="/stuff/fighter/armorset">
         <Button
-          size={"lg"}
+          size={"md"}
           fontWeight="bold"
           textTransform="uppercase"
-          px={4}
           mx={"1em"}
+          px={4}
           fontSize={"lg"}
-          rounded={"full"}
           bg={"#262626"}
           color={"#35C9A5"}
+          _hover={{
+            bg: "#171717",
+          }}
+          _active={{
+            bg: "#171717",
+          }}
           boxShadow={useColorModeValue(
             "0px 1px 25px -5px rgb( 0 0 0 / 48%), 0 9px 8px -5px rgb( 0 0 0 / 43%)",
             "0px 1px 25px -5px rgb( 53 201 165 / 48%), 0 9px 8px -5px rgb( 53 201 165 / 43%)"
           )}
-          _hover={{
-            bg: "#171717",
-          }}
-          _focus={{
-            bg: "#171717",
-          }}
         >
           Armor Set
         </Button>
       </Link>
       <Link href="/stuff/fighter/jewelryset">
         <Button
-          size={"lg"}
+          size={"md"}
           fontWeight="bold"
           textTransform="uppercase"
-          px={4}
           mx={"1em"}
+          px={4}
           fontSize={"lg"}
-          rounded={"full"}
           bg={"#262626"}
           color={"#35C9A5"}
+          _hover={{
+            bg: "#171717",
+          }}
+          _active={{
+            bg: "#171717",
+          }}
           boxShadow={useColorModeValue(
             "0px 1px 25px -5px rgb( 0 0 0 / 48%), 0 9px 8px -5px rgb( 0 0 0 / 43%)",
             "0px 1px 25px -5px rgb( 53 201 165 / 48%), 0 9px 8px -5px rgb( 53 201 165 / 43%)"
           )}
-          _hover={{
-            bg: "#171717",
-          }}
-          _focus={{
-            bg: "#171717",
-          }}
         >
           Jewelry Set
         </Button>
       </Link>{" "}
       <Link href="/stuff/fighter/offset">
         <Button
-          size={"lg"}
+          size={"md"}
           fontWeight="bold"
           textTransform="uppercase"
-          px={4}
           mx={"1em"}
+          px={4}
           fontSize={"lg"}
-          rounded={"full"}
           bg={"#262626"}
           color={"#35C9A5"}
+          _hover={{
+            bg: "#171717",
+          }}
+          _active={{
+            bg: "#171717",
+          }}
           boxShadow={useColorModeValue(
             "0px 1px 25px -5px rgb( 0 0 0 / 48%), 0 9px 8px -5px rgb( 0 0 0 / 43%)",
             "0px 1px 25px -5px rgb( 53 201 165 / 48%), 0 9px 8px -5px rgb( 53 201 165 / 43%)"
           )}
-          _hover={{
-            bg: "#171717",
-          }}
-          _focus={{
-            bg: "#171717",
-          }}
         >
           Off Set
         </Button>
       </Link>
       <Link href="/stuff/fighter/jewelryoffset">
         <Button
-          size={"lg"}
+          size={"md"}
           fontWeight="bold"
           textTransform="uppercase"
-          px={4}
           mx={"1em"}
+          px={4}
           fontSize={"lg"}
-          rounded={"full"}
           bg={"#262626"}
           color={"#35C9A5"}
+          _hover={{
+            bg: "#171717",
+          }}
+          _active={{
+            bg: "#171717",
+          }}
           boxShadow={useColorModeValue(
             "0px 1px 25px -5px rgb( 0 0 0 / 48%), 0 9px 8px -5px rgb( 0 0 0 / 43%)",
             "0px 1px 25px -5px rgb( 53 201 165 / 48%), 0 9px 8px -5px rgb( 53 201 165 / 43%)"
           )}
-          _hover={{
-            bg: "#171717",
-          }}
-          _focus={{
-            bg: "#171717",
-          }}
         >
           Jewelry Off Set
         </Button>

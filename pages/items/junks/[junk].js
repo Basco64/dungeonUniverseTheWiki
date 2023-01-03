@@ -5,6 +5,7 @@ import { Box, Text, Flex, Heading } from "@chakra-ui/react";
 
 export default function junk(props) {
   const selectJunk = props.selectedJunk;
+
   return (
     <>
       <Flex>
@@ -47,8 +48,8 @@ export default function junk(props) {
 
 export async function getStaticProps(context) {
   const slug = context.params.junk;
-  const res = await import("/data/DungeonUniverseDatabase.json");
-  const data = res.DungeonUniverseDatabase[3].data;
+  const res = await import("/data/Junks.json");
+  const data = res.data;
 
   const selectedJunk = data.find((junk) => junk.id === slug);
 
@@ -60,11 +61,12 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-  const res = await import("/data/DungeonUniverseDatabase.json");
-  const data = res.DungeonUniverseDatabase[3].data;
+  const res = await import("/data/Junks.json");
+  const data = res.data;
   const paths = data.map((item) => ({
     params: { junk: item.id },
   }));
+
   return {
     paths,
     fallback: false,

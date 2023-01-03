@@ -1,0 +1,138 @@
+{
+  "name": "NPC",
+  "data": [
+    {
+      "id": "1",
+      "name": "Grace",
+      "type": "Quest",
+      "pic": "/NPC/grace.png",
+      "shop": false,
+      "quest": true,
+      "picShop": "",
+      "questList": [
+        {
+          "id": "1",
+          "nameQuest": "Village Introduction",
+          "linkQuest": "/quests/1"
+        },
+        {
+          "id": "2",
+          "nameQuest": "Farming tasks",
+          "linkQuest": "/quests/2"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Minato",
+      "type": "Quest",
+      "pic": "/npc/minato.png",
+      "shop": false,
+      "quest": true,
+      "picShop": "",
+      "questList": [
+        {
+          "id": "3",
+          "nameQuest": "Old fisherman",
+          "linkQuest": "/quests/3"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sebastian",
+      "type": "Quest and Vendor",
+      "pic": "/npc/sebastian.png",
+      "shop": true,
+      "quest": true,
+      "picShop": "/npc/shop/sebastianShop.png",
+      "questList": [
+        {
+          "id": "4",
+          "nameQuest": "",
+          "linkQuest": "/quests/"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Arlo",
+      "type": "Quest",
+      "pic": "/npc/arlo.png",
+      "shop": false,
+      "quest": true,
+      "picShop": "",
+      "questList": [
+        {
+          "id": "",
+          "nameQuest": "",
+          "linkQuest": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Cateline",
+      "type": "Quest",
+      "pic": "/npc/cateline.png",
+      "shop": false,
+      "quest": true,
+      "picShop": "",
+      "questList": [
+        {
+          "id": "",
+          "nameQuest": "",
+          "linkQuest": ""
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Hilda",
+      "type": "Quest and Vendor",
+      "pic": "/npc/hilda.png",
+      "shop": true,
+      "quest": true,
+      "picShop": "/npc/shop/hildaShop.png",
+      "questList": [
+        {
+          "id": "",
+          "nameQuest": "",
+          "linkQuest": ""
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Elena",
+      "type": "Quest",
+      "pic": "/npc/elena.png",
+      "shop": false,
+      "quest": true,
+      "picShop": "",
+      "questList": [
+        {
+          "id": "",
+          "nameQuest": "",
+          "linkQuest": ""
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Brook",
+      "type": "Quest",
+      "pic": "/npc/brook.png",
+      "shop": false,
+      "quest": true,
+      "picShop": "",
+      "questList": [
+        {
+          "id": "",
+          "nameQuest": "",
+          "linkQuest": ""
+        }
+      ]
+    }
+  ]
+}

@@ -54,8 +54,8 @@ export default function quest(props) {
 
 export async function getStaticProps(context) {
   const slug = context.params.quest;
-  const res = await import("/data/DungeonUniverseDatabase.json");
-  const data = res.DungeonUniverseDatabase[1].data;
+  const res = await import("/data/Quests.json");
+  const data = res.data;
 
   const selectedQuest = data.find((quest) => quest.id === slug);
 
@@ -67,8 +67,8 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-  const res = await import("/data/DungeonUniverseDatabase.json");
-  const data = res.DungeonUniverseDatabase[1].data;
+  const res = await import("/data/Quests.json");
+  const data = res.data;
   const paths = data.map((item) => ({
     params: { quest: item.id },
   }));

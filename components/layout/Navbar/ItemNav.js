@@ -9,7 +9,7 @@ import {
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import Link from "next/link";
 
-export default function HeroNav() {
+export default function ItemNav() {
   return (
     <Menu>
       <MenuButton
@@ -34,11 +34,11 @@ export default function HeroNav() {
           "0px 1px 25px -5px rgb( 53 201 165 / 48%), 0 9px 8px -5px rgb( 53 201 165 / 43%)"
         )}
       >
-        Hero
+        Items
       </MenuButton>
 
       <MenuList bg={"#171717"}>
-        <Link href="/player">
+        <Link href="/items/junks" passHref scroll={false}>
           <MenuItem
             color="white"
             bg={"#262626"}
@@ -46,10 +46,11 @@ export default function HeroNav() {
               bg: "#171717",
             }}
           >
-            Hero
+            Junks
           </MenuItem>
         </Link>
-        <Link href="/player/fighter">
+
+        <Link href="/items/junks" passHref scroll={false}>
           <MenuItem
             color="white"
             bg={"#262626"}
@@ -57,29 +58,7 @@ export default function HeroNav() {
               bg: "#171717",
             }}
           >
-            Fighter
-          </MenuItem>
-        </Link>
-        <Link href="/player/scout">
-          <MenuItem
-            color="white"
-            bg={"#262626"}
-            _hover={{
-              bg: "#171717",
-            }}
-          >
-            Scout
-          </MenuItem>
-        </Link>
-        <Link href="/player/wizard">
-          <MenuItem
-            color="white"
-            bg={"#262626"}
-            _hover={{
-              bg: "#171717",
-            }}
-          >
-            Wizard
+            Comsumable
           </MenuItem>
         </Link>
       </MenuList>

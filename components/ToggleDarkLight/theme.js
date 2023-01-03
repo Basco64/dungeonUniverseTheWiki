@@ -13,6 +13,8 @@ const fonts = {
 };
 
 const overrides = {
+  initialColorMode: "light",
+  useSystemColorMode: false,
   ...chakraTheme,
   fonts,
   baseStyle: {

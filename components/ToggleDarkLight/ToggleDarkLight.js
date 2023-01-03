@@ -21,7 +21,7 @@ export default function ToggleDarkLight() {
         aria-label="theme toggle"
         icon={colorMode === "dark" ? <MoonIcon /> : <SunIcon />}
         onClick={toggleColorMode}
-        // color={iconColor[colorMode]}
+        color={iconColor[colorMode]}
       ></IconButton>
     </Box>
   );

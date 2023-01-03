@@ -3,29 +3,32 @@ import Image from "next/image";
 import { Box, Text, Flex, Stack, VStack, Heading } from "@chakra-ui/react";
 
 export default function Index(props) {
-  const junks = props.data;
+  const consumables = props.data;
 
   return (
     <Flex>
-      {junks.map((junk) => (
-        <Stack key={junk.id} p={6} m={6}>
+      {consumables.map((consumable) => (
+        <Stack key={consumable.id} p={6} m={6}>
           <Box>
-            <Link href={`/junks/${junk.id}`}>
-              <Image src={junk.pic} alt="Pic" width={75} height={75} />
+            <Link href={`/items/consumables/${consumable.id}`}>
+              <Image src={consumable.pic} alt="Pic" width={75} height={75} />
             </Link>
           </Box>
           <VStack>
-            <Link href={`/junks/${junk.id}`} className={"pr-4"}>
-              <Heading>{junk.name}</Heading>
+            <Link
+              href={`/items/consumables/${consumable.id}`}
+              className={"pr-4"}
+            >
+              <Heading>{consumable.name}</Heading>
               <Box className="flex">
                 <Text mx={2} as={"b"} color={"#fbbf24"} fontSize="xl">
-                  {junk.gold}{" "}
+                  {consumable.gold}{" "}
                 </Text>
                 <Text mx={2} as={"b"} color={"#71717a"} fontSize="xl">
-                  {junk.silver}{" "}
+                  {consumable.silver}{" "}
                 </Text>
                 <Text mx={2} as={"b"} color={"#b45309"} fontSize="xl">
-                  {junk.copper}{" "}
+                  {consumable.copper}{" "}
                 </Text>
               </Box>
             </Link>
@@ -37,8 +40,8 @@ export default function Index(props) {
 }
 
 export async function getStaticProps() {
-  const res = await import(`/data/DungeonUniverseDatabase.json`);
-  const data = res.DungeonUniverseDatabase[3].data;
+  const res = await import(`/data/Consumables.json`);
+  const data = res.data;
 
   return {
     props: {

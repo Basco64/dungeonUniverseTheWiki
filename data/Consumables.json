@@ -1,0 +1,27 @@
+{
+  "name": "Junks",
+  "data": [
+    {
+      "id": "1",
+      "name": "Wolf Fur",
+      "copper": "18 c",
+      "silver": "0 s",
+      "gold": "0 g",
+      "pic": "/junk/wolf fur.png",
+      "mob": "Wolf",
+      "mobLink": "/enemies/1",
+      "mobPic": "/enemies/wolf.png"
+    },
+    {
+      "id": "2",
+      "name": "Spider legs",
+      "copper": "19 c",
+      "silver": "0 s",
+      "gold": "0 g",
+      "pic": "/Junk/spider legs.png",
+      "mob": "Small Spider",
+      "mobLink": "/enemies/2",
+      "mobPic": "/enemies/small spider.png"
+    }
+  ]
+}

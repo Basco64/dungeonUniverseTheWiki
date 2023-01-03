@@ -30,7 +30,7 @@ export default function Scout() {
             </Text>
           </Box>{" "}
           <SimpleGrid columns={3} spacing={10}>
-            <Card maxW="lg" variant="outline" align={"center"}>
+            <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
                   src="/Player/Wizard/basicSpellMini.png"
@@ -53,7 +53,7 @@ export default function Scout() {
                 />
               </CardFooter>
             </Card>
-            <Card maxW="lg" variant="outline" align={"center"}>
+            <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
                   src="/Player/Wizard/fireBallMini.png"
@@ -76,7 +76,7 @@ export default function Scout() {
                 />
               </CardFooter>
             </Card>
-            <Card maxW="lg" variant="outline" align={"center"}>
+            <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
                   src="/Player/Wizard/shadowDoomMini.png"
@@ -99,7 +99,7 @@ export default function Scout() {
                 />
               </CardFooter>
             </Card>
-            <Card maxW="lg" variant="outline" align={"center"}>
+            <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
                   src="/Player/Wizard/rejuvenationMini.png"
@@ -122,7 +122,7 @@ export default function Scout() {
                 />
               </CardFooter>
             </Card>{" "}
-            <Card maxW="lg" variant="outline" align={"center"}>
+            <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
                   src="/Player/Wizard/blessMindMini.png"
@@ -145,7 +145,7 @@ export default function Scout() {
                 />
               </CardFooter>
             </Card>
-            {/* <Card maxW="lg" variant="outline" align={"center"}>
+            {/* <Card maxWidth="lg" variant="outline" align={"center"}>
             <CardBody>
               <Image
                 src=" /Player/Wizard/"

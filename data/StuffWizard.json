@@ -1,0 +1,107 @@
+{
+  "name": "StuffWizard",
+  "data": [
+    {
+      "OffSet": [
+        {
+          "id": "1",
+          "NFT": false,
+          "rarity": "Uncommon",
+          "levelForEquip": "12",
+          "slot": "Neck",
+          "name": "Necklace Of Ursus",
+          "stuffPic": "/Stuff/Wizard/OffSet/necklaceOfUrsus.png",
+          "stuffPicMini": "/Stuff/Wizard/OffSet/necklaceOfUrsusMini.png"
+        }
+      ]
+    },
+    {
+      "JewelryOffSet": [
+        {
+          "id": "1",
+          "NFT": false,
+          "rarity": "Uncommon",
+          "levelForEquip": "12",
+          "name": "Necklace Of Ursus",
+          "slot": "Neck",
+          "stuffPic": "/Stuff/Wizard/OffSet/necklaceOfUrsus.png",
+          "stuffPicMini": "/Stuff/Wizard/OffSet/necklaceOfUrsusMini.png"
+        }
+      ]
+    },
+    {
+      "ArmorSet": [
+        {
+          "id": "1",
+          "name": "Midcreed Scout Set T1",
+          "rarity": "Uncommon",
+          "levelForEquip": "12",
+          "head": "Midcreek leather helmet?",
+          "headPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
+          "headPicMini": "/Stuff/Scout/ArmorSet/ChestT1Mini.png",
+          "shoulders": "Midcreek leather shoulders",
+          "shouldersPic": "/Stuff/Scout/ArmorSet/ShouldersT1.png",
+          "shouldersPicMini": "/Stuff/Scout/ArmorSet/ShouldersT1Mini.png",
+          "chest": "Midcreek leather chest",
+          "chestPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
+          "chestPicMini": "/Stuff/Scout/ArmorSet/ChestT1Mini.png",
+          "gloves": "Midcreek leather gloves",
+          "glovesPic": "/Stuff/Scout/ArmorSet/GlovesT1.png",
+          "glovesPicMini": "/Stuff/Scout/ArmorSet/GlovesT1Mini.png",
+          "legs": "Midcreek leather pants",
+          "legsPic": "/Stuff/Scout/ArmorSet/LegsT1.png",
+          "legsPicMini": "/Stuff/Scout/ArmorSet/LegsT1Mini.png",
+          "feet": "Midcreek leather boots",
+          "feetPic": "/Stuff/Scout/ArmorSet/FeetT1.png",
+          "feetPicMini": "/Stuff/Scout/ArmorSet/FeetT1Mini.png",
+          "setPic": "/Stuff/Scout/ArmorSet/SetT1.png"
+        },
+        {
+          "id": "2",
+          "name": "Scout T1",
+          "rarity": "Common",
+          "levelForEquip": "12",
+          "head": "tete",
+          "headPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
+          "headPicMini": "/Stuff/Scout/ArmorSet/ChestT1Mini.png",
+          "shoulders": "epaules",
+          "shouldersPic": "/Stuff/Scout/ArmorSet/ShouldersT1.png",
+          "shouldersPicMini": "/Stuff/Scout/ArmorSet/ShouldersT1Mini.png",
+          "chest": "torse",
+          "chestPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
+          "chestPicMini": "/Stuff/Scout/ArmorSet/ChestT1.png",
+          "gloves": "torse",
+          "glovesPic": "/Stuff/Scout/ArmorSet/GlovesT1.png",
+          "glovesPicMini": "/Stuff/Scout/ArmorSet/GlovesT1Mini.png",
+          "legs": "jambes",
+          "legsPic": "/Stuff/Scout/ArmorSet/LegsT1.png",
+          "legsPicMini": "/Stuff/Scout/ArmorSet/LegsT1Mini.png",
+          "feet": "pieds",
+          "feetPic": "/Stuff/Scout/ArmorSet/FeetT1.png",
+          "feetPicMini": "/Stuff/Scout/ArmorSet/FeetT1Mini.png",
+          "setPic": "/Stuff/Scout/ArmorSet/SetT1.png"
+        }
+      ]
+    },
+    {
+      "JewelrySet": [
+        {
+          "id": "1",
+          "rarity": "Common",
+          "levelForEquip": "12",
+          "name": "Scout Copper Jewelery Set",
+          "neck": "tete",
+          "neckPic": "/Stuff/Scout/JewelSet/NeckCopper.png",
+          "neckPicMini": "/Stuff/Common/Jewel/NeckCopperMini.png",
+          "ring": "epaules",
+          "ringPic": "/Stuff/Scout/JewelSet/RingCopper.png",
+          "ringPicMini": "/Stuff/Common/Jewel/RingCopperMini.png",
+          "earring": "torse",
+          "earringPic": "/Stuff/Scout/JewelSet/EarringCopper.png",
+          "earringPicMini": "/Stuff/Common/Jewel/EarringCopperMini.png",
+          "setPic": "/Stuff/Scout/JewelSet/CopperScoutSet.png"
+        }
+      ]
+    }
+  ]
+}

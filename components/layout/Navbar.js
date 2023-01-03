@@ -5,7 +5,7 @@ import HeroNav from "./Navbar/HeroNav";
 import StuffNav from "./Navbar/StuffNav";
 import EnemiesNav from "./Navbar/EnemiesNav";
 import HomeNav from "./Navbar/HomeNav";
-import JunksNav from "./Navbar/JunksNav";
+import ItemNav from "./Navbar/ItemNav";
 import NpcNav from "./Navbar/NpcNav";
 import QuestNav from "./Navbar/QuestNav";
 
@@ -17,7 +17,7 @@ export default function NavBar() {
       <EnemiesNav />
       <StuffNav />
       <QuestNav />
-      <JunksNav />
+      <ItemNav />
       <NpcNav />
     </Flex>
   );

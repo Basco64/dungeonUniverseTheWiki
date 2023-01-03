@@ -64,8 +64,8 @@ export default function npc(props) {
 
 export async function getStaticProps(context) {
   const slug = context.params.npc;
-  const res = await import("/data/DungeonUniverseDatabase.json");
-  const data = res.DungeonUniverseDatabase[2].data;
+  const res = await import("/data/NPC.json");
+  const data = res.data;
 
   const selectedNPC = data.find((npc) => npc.id === slug);
 
@@ -77,8 +77,8 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-  const res = await import("/data/DungeonUniverseDatabase.json");
-  const data = res.DungeonUniverseDatabase[2].data;
+  const res = await import("/data/NPC.json");
+  const data = res.data;
   const paths = data.map((item) => ({
     params: { npc: item.id },
   }));

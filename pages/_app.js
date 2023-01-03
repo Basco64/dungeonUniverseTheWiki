@@ -14,18 +14,18 @@ import Layout from "../components/layout/Layout";
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <title>Dungeon Universe Wiki</title>
-        <link
-          rel="icon"
-          href="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dungeonuniverse.com/"
-        />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86"
-        />
-      </Head>
       <ChakraProvider theme={customTheme}>
+        <Head>
+          <title>Dungeon Universe Wiki</title>
+          <link
+            rel="icon"
+            href="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dungeonuniverse.com/"
+          />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86"
+          />
+        </Head>
         <ToggleDarkLight />
         <Header />
         <Component {...pageProps} />

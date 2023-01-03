@@ -5,7 +5,7 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 export default function Home() {
   return (
     <Box align="center">
-      <Heading as="h1" csize="3xl">
+      <Heading as="h1" size="3xl">
         A wiki for the NFT game Dungeon Universe.
       </Heading>
       <Text fontSize="2xl" as="b">

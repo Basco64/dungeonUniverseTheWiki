@@ -39,8 +39,8 @@ export default function Index(props) {
 }
 
 export async function getStaticProps() {
-  const res = await import(`/data/DungeonUniverseDatabase.json`);
-  const data = res.DungeonUniverseDatabase[1].data;
+  const res = await import(`/data/Quests.json`);
+  const data = res.data;
 
   return {
     props: {

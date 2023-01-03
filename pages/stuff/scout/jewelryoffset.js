@@ -36,7 +36,7 @@ export default function scoutJewelryOffset(props) {
           }
           return (
             <Card
-              maxW="md"
+              maxWidth="md"
               variant="outline"
               key={set.id}
               boxShadow={rarityShadow}
@@ -81,8 +81,8 @@ export default function scoutJewelryOffset(props) {
 }
 
 export async function getStaticProps() {
-  const res = await import(`/data/DungeonUniverseDatabase.json`);
-  const data = res.DungeonUniverseDatabase[4].data;
+  const res = await import(`/data/StuffScout.json`);
+  const data = res.data;
 
   return {
     props: {

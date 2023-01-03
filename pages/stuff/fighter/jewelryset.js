@@ -40,7 +40,7 @@ export default function fighterJewelryset(props) {
           }
           return (
             <Card
-              maxW="md"
+              maxWidth="md"
               variant="outline"
               key={set.id}
               boxShadow={rarityShadow}
@@ -105,8 +105,8 @@ export default function fighterJewelryset(props) {
 }
 
 export async function getStaticProps() {
-  const res = await import(`/data/DungeonUniverseDatabase.json`);
-  const data = res.DungeonUniverseDatabase[4].data;
+  const res = await import(`/data/StuffFighter.json`);
+  const data = res.data;
 
   return {
     props: {

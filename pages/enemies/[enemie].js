@@ -32,8 +32,8 @@ export default function enemie(props) {
 
 export async function getStaticProps(context) {
   const slug = context.params.enemie;
-  const res = await import("/data/DungeonUniverseDatabase.json");
-  const data = res.DungeonUniverseDatabase[0].data;
+  const res = await import("/data/Enemies.json");
+  const data = res.data;
 
   const selectedEnemie = data.find((enemie) => enemie.id === slug);
 
@@ -45,8 +45,8 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-  const res = await import("/data/DungeonUniverseDatabase.json");
-  const data = res.DungeonUniverseDatabase[0].data;
+  const res = await import("/data/Enemies.json");
+  const data = res.data;
   const paths = data.map((item) => ({
     params: { enemie: item.id },
   }));
