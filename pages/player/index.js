@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import TableXp from "../../components/table/TableXP";
+import TableXp from "../../components/table/tableXP";
 import TableStats from "../../components/table/TableStats";
 import { Box, Flex, Stack, VStack, Text } from "@chakra-ui/react";
 
