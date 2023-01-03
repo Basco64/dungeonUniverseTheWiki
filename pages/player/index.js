@@ -20,10 +20,8 @@ export default function Player() {
             width={144}
             height={144}
           ></Image>
-          <Text as={"u"} fontWeight="bold">
-            Fighter
-          </Text>
         </Link>{" "}
+        <Text fontWeight="bold">Fighter</Text>
         <Link href={"/player/scout"}>
           <Image
             src={"/Heroes/ScoutIcon.png"}
@@ -31,10 +29,8 @@ export default function Player() {
             width={144}
             height={144}
           ></Image>
-          <Text as={"u"} fontWeight="bold">
-            Scout
-          </Text>
         </Link>
+        <Text fontWeight="bold">Scout</Text>
         <Link href={"/player/wizard"}>
           <Image
             src={"/Heroes/WizardIcon.png"}
@@ -42,10 +38,8 @@ export default function Player() {
             width={144}
             height={144}
           ></Image>
-          <Text as={"u"} fontWeight="bold">
-            Wizard
-          </Text>
         </Link>
+        <Text fontWeight="bold">Wizard</Text>
       </VStack>
       <Stack>
         <Box>

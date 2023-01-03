@@ -8,6 +8,7 @@ export default function Footer() {
       as="footer"
       flexDir={"row"}
       py={"4"}
+      mt={10}
       bg="#303030"
       color="white"
       align="center"

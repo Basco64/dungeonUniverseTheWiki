@@ -10,7 +10,7 @@ import {
   TableContainer,
 } from "@chakra-ui/react";
 
-export default function tableXp() {
+export default function TableStats() {
   return (
     <TableContainer maxWidth={"50em"}>
       <Table>

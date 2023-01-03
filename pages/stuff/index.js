@@ -6,7 +6,7 @@ export default function StuffPage() {
   return (
     <>
       <Flex>
-        <Heading as={"b"} pb={"8"}>
+        <Heading as={"b"} pb={8}>
           Choose your Classe
         </Heading>
       </Flex>
