@@ -1,0 +1,558 @@
+{
+  "DungeonUniverseDatabase": [
+    {
+      "name": "enemies-0",
+      "data": [
+        {
+          "id": "1",
+          "name": "Wolf",
+          "boss": false,
+          "levels": "1-2",
+          "health": "80-125",
+          "loot": "loot du loup",
+          "pic": "/enemies/wolf.png"
+        },
+        {
+          "id": "2",
+          "name": "Small Spider",
+          "boss": false,
+          "levels": "3-5",
+          "health": "180-320",
+          "loot": "loot de l'araignée",
+          "pic": "/enemies/small spider.png"
+        },
+        {
+          "id": "3",
+          "name": "Bandit",
+          "boss": false,
+          "levels": "5-7",
+          "health": "320-500",
+          "loot": "loot du bandit",
+          "pic": "/enemies/bandit.png"
+        },
+        {
+          "id": "4",
+          "name": "Bandit Leader",
+          "boss": true,
+          "levels": "10",
+          "health": "1245",
+          "loot": "loot du bandit",
+          "pic": "/enemies/bandit leader.png"
+        },
+        {
+          "id": "5",
+          "name": "Ursus, The Raging",
+          "boss": true,
+          "levels": "12",
+          "health": "5125",
+          "loot": "loot du bandit",
+          "pic": "/enemies/ursus.png"
+        },
+        {
+          "id": "6",
+          "name": "Small Toad",
+          "boss": false,
+          "levels": "8-10",
+          "health": "605-845",
+          "loot": "loot small toad",
+          "pic": "/enemies/small toad.png"
+        },
+        {
+          "id": "7",
+          "name": "Valley Eagle",
+          "boss": false,
+          "levels": "11-13",
+          "health": "605-845",
+          "loot": "loot eagle",
+          "pic": "/enemies/valley eagle.png"
+        }
+      ]
+    },
+    {
+      "name": "quest-1",
+      "data": [
+        {
+          "id": "1",
+          "name": "Village Introduction",
+          "getter": "Grace",
+          "getterPic": "/npc/grace.png",
+          "getterLink": "/NPC/1",
+          "main": true,
+          "repeat": false,
+          "objectif": "Hunt Wolfs around the village and obtain wolf meat.",
+          "description": "Greetings fellow traveller! \n My name is Grace and I am village chief.Before we continue I have a huge favor to ask you.Our village has been running low on meat becauseof recent bandit raids.Would you be kind enough to gather some wolf meat from nearby wolfs."
+        },
+        {
+          "id": "2",
+          "name": "Farming tasks",
+          "getter": "Grace",
+          "getterPic": "/npc/grace.png",
+          "getterLink": "/NPC/1",
+          "main": false,
+          "repeat": false,
+          "objectif": "Help Grace and Minato with farm tasks.",
+          "description": "We have been really buse lately with farm expansion and because of that we have felt behind with some of the tasks.You seem like a type of person that could help us out. What do you say? I'll reward you with some really delicious homemade bread."
+        },
+        {
+          "id": "3",
+          "name": "Old fisherman",
+          "getter": "Minato",
+          "getterPic": "/npc/minato.png",
+          "getterLink": "/NPC/2",
+          "main": true,
+          "repeat": false,
+          "objectif": "Follow the road up north west and talk with fisherman Sebastian located by the river.",
+          "description": "Thank you very much for your generous help traveler.I have one more favor to ask you. Would you mind delivering this piece of meat to my brother.His name is Sebastian, he is the fisherman living Northwest of village."
+        },
+        {
+          "id": "4",
+          "name": "Lost compass",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": false,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "Old Fisherman Job",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": true,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "name": "Find miller Arlo",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": true,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "name": "Spider problem",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": false,
+          "repeat": true,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "8",
+          "name": "Bandit Pest",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": false,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "9",
+          "name": "Stolen watch",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": true,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "10",
+          "name": "Pesky bandits",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": false,
+          "repeat": true,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": "Grace",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": true,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "12",
+          "name": "To the adventure",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": true,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "13",
+          "name": "Mysterious chest",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": false,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "14",
+          "name": "Angry toads",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": false,
+          "repeat": true,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "15",
+          "name": "Slimy Toads",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": false,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        },
+        {
+          "id": "16",
+          "name": "Request from Elena",
+          "getter": "",
+          "getterPic": "/npc/",
+          "getterLink": "",
+          "main": false,
+          "repeat": false,
+          "objectif": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "NPC-2",
+      "data": [
+        {
+          "id": "1",
+          "name": "Grace",
+          "type": "Quest",
+          "pic": "/NPC/grace.png",
+          "shop": false,
+          "quest": true,
+          "picShop": "",
+          "questList": [
+            {
+              "id": "1",
+              "nameQuest": "Village Introduction",
+              "linkQuest": "/quests/1"
+            },
+            {
+              "id": "2",
+              "nameQuest": "Farming tasks",
+              "linkQuest": "/quests/2"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Minato",
+          "type": "Quest",
+          "pic": "/npc/minato.png",
+          "shop": false,
+          "quest": true,
+          "picShop": "",
+          "questList": [
+            {
+              "id": "3",
+              "nameQuest": "Old fisherman",
+              "linkQuest": "/quests/3"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Sebastian",
+          "type": "Quest and Vendor",
+          "pic": "/npc/sebastian.png",
+          "shop": true,
+          "quest": true,
+          "picShop": "/npc/shop/sebastianShop.png",
+          "questList": [
+            {
+              "id": "4",
+              "nameQuest": "",
+              "linkQuest": "/quests/"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Arlo",
+          "type": "Quest",
+          "pic": "/npc/arlo.png",
+          "shop": false,
+          "quest": true,
+          "picShop": "",
+          "questList": [
+            {
+              "id": "",
+              "nameQuest": "",
+              "linkQuest": ""
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Cateline",
+          "type": "Quest",
+          "pic": "/npc/cateline.png",
+          "shop": false,
+          "quest": true,
+          "picShop": "",
+          "questList": [
+            {
+              "id": "",
+              "nameQuest": "",
+              "linkQuest": ""
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Hilda",
+          "type": "Quest and Vendor",
+          "pic": "/npc/hilda.png",
+          "shop": true,
+          "quest": true,
+          "picShop": "/npc/shop/hildaShop.png",
+          "questList": [
+            {
+              "id": "",
+              "nameQuest": "",
+              "linkQuest": ""
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Elena",
+          "type": "Quest",
+          "pic": "/npc/elena.png",
+          "shop": false,
+          "quest": true,
+          "picShop": "",
+          "questList": [
+            {
+              "id": "",
+              "nameQuest": "",
+              "linkQuest": ""
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Brook",
+          "type": "Quest",
+          "pic": "/npc/brook.png",
+          "shop": false,
+          "quest": true,
+          "picShop": "",
+          "questList": [
+            {
+              "id": "",
+              "nameQuest": "",
+              "linkQuest": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "junk-3",
+      "data": [
+        {
+          "id": "1",
+          "name": "Wolf Fur",
+          "copper": "18 c",
+          "silver": "0 s",
+          "gold": "0 g",
+          "pic": "/junk/wolf fur.png",
+          "mob": "Wolf",
+          "mobLink": "/enemies/1",
+          "mobPic": "/enemies/wolf.png"
+        },
+        {
+          "id": "2",
+          "name": "Spider legs",
+          "copper": "19 c",
+          "silver": "0 s",
+          "gold": "0 g",
+          "pic": "/Junk/spider legs.png",
+          "mob": "Small Spider",
+          "mobLink": "/enemies/2",
+          "mobPic": "/enemies/small spider.png"
+        },
+        {
+          "id": "3",
+          "name": "Insect Parts",
+          "copper": "50 c",
+          "silver": "2 s",
+          "gold": "0 g",
+          "pic": "/Junk/insect parts.png",
+          "mob": "Small Toad",
+          "mobLink": "/enemies/2",
+          "mobPic": "/enemies/small toad.png"
+        },
+        {
+          "id": "4",
+          "name": "Feather",
+          "copper": "0 c",
+          "silver": "5 s",
+          "gold": "0 g",
+          "pic": "/Junk/feather.png",
+          "mob": "Valley Eagle",
+          "mobLink": "/enemies/7",
+          "mobPic": "/enemies/valley eagle.png"
+        }
+      ]
+    },
+    {
+      "name": "StuffScout-4",
+      "data": [
+        {
+          "OffSet": [
+            {
+              "id": "1",
+              "NFT": false,
+              "rarity": "Uncommon",
+              "levelForEquip": "12",
+              "slot": "Neck",
+              "name": "Necklace Of Ursus",
+              "stuffPic": "/Stuff/Wizard/OffSet/necklaceOfUrsus.png",
+              "stuffPicMini": "/Stuff/Wizard/OffSet/necklaceOfUrsusMini.png"
+            }
+          ]
+        },
+        {
+          "JewelryOffSet": [
+            {
+              "id": "1",
+              "NFT": false,
+              "rarity": "Uncommon",
+              "levelForEquip": "12",
+              "name": "Necklace Of Ursus",
+              "slot": "Neck",
+              "stuffPic": "/Stuff/Wizard/OffSet/necklaceOfUrsus.png",
+              "stuffPicMini": "/Stuff/Wizard/OffSet/necklaceOfUrsusMini.png"
+            }
+          ]
+        },
+        {
+          "ArmorSet": [
+            {
+              "id": "1",
+              "name": "Midcreed Scout Set T1",
+              "rarity": "Uncommon",
+              "levelForEquip": "12",
+              "head": "Midcreek leather helmet?",
+              "headPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
+              "headPicMini": "/Stuff/Scout/ArmorSet/ChestT1Mini.png",
+              "shoulders": "Midcreek leather shoulders",
+              "shouldersPic": "/Stuff/Scout/ArmorSet/ShouldersT1.png",
+              "shouldersPicMini": "/Stuff/Scout/ArmorSet/ShouldersT1Mini.png",
+              "chest": "Midcreek leather chest",
+              "chestPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
+              "chestPicMini": "/Stuff/Scout/ArmorSet/ChestT1Mini.png",
+              "gloves": "Midcreek leather gloves",
+              "glovesPic": "/Stuff/Scout/ArmorSet/GlovesT1.png",
+              "glovesPicMini": "/Stuff/Scout/ArmorSet/GlovesT1Mini.png",
+              "legs": "Midcreek leather pants",
+              "legsPic": "/Stuff/Scout/ArmorSet/LegsT1.png",
+              "legsPicMini": "/Stuff/Scout/ArmorSet/LegsT1Mini.png",
+              "feet": "Midcreek leather boots",
+              "feetPic": "/Stuff/Scout/ArmorSet/FeetT1.png",
+              "feetPicMini": "/Stuff/Scout/ArmorSet/FeetT1Mini.png",
+              "setPic": "/Stuff/Scout/ArmorSet/SetT1.png"
+            },
+            {
+              "id": "2",
+              "name": "Scout T1",
+              "rarity": "Common",
+              "levelForEquip": "12",
+              "head": "tete",
+              "headPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
+              "headPicMini": "/Stuff/Scout/ArmorSet/ChestT1Mini.png",
+              "shoulders": "epaules",
+              "shouldersPic": "/Stuff/Scout/ArmorSet/ShouldersT1.png",
+              "shouldersPicMini": "/Stuff/Scout/ArmorSet/ShouldersT1Mini.png",
+              "chest": "torse",
+              "chestPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
+              "chestPicMini": "/Stuff/Scout/ArmorSet/ChestT1.png",
+              "gloves": "torse",
+              "glovesPic": "/Stuff/Scout/ArmorSet/GlovesT1.png",
+              "glovesPicMini": "/Stuff/Scout/ArmorSet/GlovesT1Mini.png",
+              "legs": "jambes",
+              "legsPic": "/Stuff/Scout/ArmorSet/LegsT1.png",
+              "legsPicMini": "/Stuff/Scout/ArmorSet/LegsT1Mini.png",
+              "feet": "pieds",
+              "feetPic": "/Stuff/Scout/ArmorSet/FeetT1.png",
+              "feetPicMini": "/Stuff/Scout/ArmorSet/FeetT1Mini.png",
+              "setPic": "/Stuff/Scout/ArmorSet/SetT1.png"
+            }
+          ]
+        },
+        {
+          "JewelrySet": [
+            {
+              "id": "1",
+              "rarity": "Common",
+              "levelForEquip": "12",
+              "name": "Scout Copper Jewelery Set",
+              "neck": "tete",
+              "neckPic": "/Stuff/Scout/JewelSet/NeckCopper.png",
+              "neckPicMini": "/Stuff/Common/Jewel/NeckCopperMini.png",
+              "ring": "epaules",
+              "ringPic": "/Stuff/Scout/JewelSet/RingCopper.png",
+              "ringPicMini": "/Stuff/Common/Jewel/RingCopperMini.png",
+              "earring": "torse",
+              "earringPic": "/Stuff/Scout/JewelSet/EarringCopper.png",
+              "earringPicMini": "/Stuff/Common/Jewel/EarringCopperMini.png",
+              "setPic": "/Stuff/Scout/JewelSet/CopperScoutSet.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "data": [
+        {
+          "id": "1"
+        },
+        {
+          "id": "2"
+        }
+      ]
+    }
+  ]
+}
