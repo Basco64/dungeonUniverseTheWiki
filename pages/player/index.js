@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import TableXp from "../../components/table/tableXP";
-import TableStats from "../../components/table/tableStats";
+import TableXp from "../../components/table/TableXP";
+import TableStats from "../../components/table/TableStats";
 import { Box, Flex, Stack, VStack, Text } from "@chakra-ui/react";
 
 export default function Player() {

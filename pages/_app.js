@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import Head from "next/head";
-import Footer from "../components/layout/footer";
-import Header from "../components/layout/header";
+import Footer from "../components/layout/Footer";
+import Header from "../components/layout/Header";
 import {
   ChakraProvider,
   ColorModeProvider,

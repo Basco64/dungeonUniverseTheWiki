@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import Layout from "../components/layout/Layout";
 import { Box, Heading, Text } from "@chakra-ui/react";
 
 export default function Home() {
