@@ -33,7 +33,7 @@ export default function Wizard() {
             <Card maxW="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/player/wizard/basicSpellMini.png"
+                  src="/Player/Wizard/basicSpellMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
@@ -46,7 +46,7 @@ export default function Wizard() {
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/player/wizard/basicSpell.png"
+                  src="/Player/Wizard/basicSpell.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -56,7 +56,7 @@ export default function Wizard() {
             <Card maxW="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/player/wizard/fireBallMini.png"
+                  src="/Player/Wizard/fireBallMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
@@ -69,7 +69,7 @@ export default function Wizard() {
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/player/wizard/fireBall.png"
+                  src="/Player/Wizard/fireBall.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -79,7 +79,7 @@ export default function Wizard() {
             <Card maxW="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/player/wizard/shadowDoomMini.png"
+                  src="/Player/Wizard/shadowDoomMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
@@ -92,7 +92,7 @@ export default function Wizard() {
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/player/wizard/shadowDoom.png"
+                  src="/Player/Wizard/shadowDoom.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -102,7 +102,7 @@ export default function Wizard() {
             <Card maxW="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/player/wizard/rejuvenationMini.png"
+                  src="/Player/Wizard/rejuvenationMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
@@ -115,7 +115,7 @@ export default function Wizard() {
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/player/wizard/rejuvenation.png"
+                  src="/Player/Wizard/rejuvenation.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -125,7 +125,7 @@ export default function Wizard() {
             <Card maxW="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/player/wizard/blessMindMini.png"
+                  src="/Player/Wizard/blessMindMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
@@ -138,7 +138,7 @@ export default function Wizard() {
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/player/wizard/blessMind.png"
+                  src="/Player/Wizard/blessMind.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -148,7 +148,7 @@ export default function Wizard() {
             {/* <Card maxW="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/player/wizard/"
+                  src=" /Player/Wizard/"
                   alt="basic spell mini"
                   width={65}
                   height={65}
@@ -161,7 +161,7 @@ export default function Wizard() {
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/player/wizard/"
+                  src=" /Player/Wizard/"
                   alt="basic spell"
                   width={600}
                   height={230}

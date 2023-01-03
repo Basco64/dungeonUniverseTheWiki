@@ -43,7 +43,7 @@ export default function TableXp() {
           </Tr>
           <Tr>
             <Th>6</Th>
-            <Td>Ø</Td>
+            <Td>14 674</Td>
           </Tr>
           <Tr>
             <Th>7</Th>
@@ -91,7 +91,7 @@ export default function TableXp() {
           </Tr>
           <Tr>
             <Th>18</Th>
-            <Td>Ø</Td>
+            <Td>2 829 706</Td>
           </Tr>
           <Tr>
             <Th>19</Th>
