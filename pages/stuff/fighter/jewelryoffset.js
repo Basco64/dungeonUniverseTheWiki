@@ -17,7 +17,7 @@ import {
   PopoverContent,
   Portal,
 } from "@chakra-ui/react";
-import StuffNavbar from "../../../components/subNavbar/stuffFighterNavbar";
+import StuffNavbar from "../../../components/subNavbar/StuffFighterNavbar";
 
 export default function fighterJewelryOffset(props) {
   const stuff = props.data;

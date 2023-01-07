@@ -17,7 +17,7 @@ import {
   PopoverContent,
   Portal,
 } from "@chakra-ui/react";
-import StuffNavbar from "../../../components/subNavbar/stuffWizardNavbar";
+import StuffNavbar from "../../../components/subNavbar/StuffWizardNavbar";
 
 export default function jewelryset(props) {
   const stuff = props.data;

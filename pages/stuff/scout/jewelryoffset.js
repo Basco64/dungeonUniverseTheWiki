@@ -1,4 +1,4 @@
-import StuffNavbar from "../../../components/subNavbar/stuffScoutNavbar";
+import StuffNavbar from "../../../components/subNavbar/StuffScoutNavbar";
 import {
   Flex,
   Grid,
