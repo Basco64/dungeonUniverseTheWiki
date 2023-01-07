@@ -11,22 +11,22 @@ import {
 } from "@chakra-ui/react";
 import ReturnButton from "../../../components/Button/ReturnButton";
 
-export default function junk(props) {
-  const selectJunk = props.selectedJunk;
+export default function questItem(props) {
+  const selectItem = props.selectedItem;
 
   return (
     <>
       <Box p={5}>
-        <Link href={"/items/junks"}>
+        <Link href={"/items/questitems"}>
           <ReturnButton />
         </Link>
       </Box>
       <Flex>
         <Box>
           <Heading className="font-bold my-2">
-            {selectJunk.name}{" "}
+            {selectItem.name}{" "}
             <Image
-              src={selectJunk.pic}
+              src={selectItem.pic}
               alt="Pic"
               width={75}
               height={75}
@@ -35,23 +35,23 @@ export default function junk(props) {
           </Heading>
           <Box>
             <Text mx={2} as={"b"} color={"#fbbf24"} fontSize="xl">
-              {selectJunk.gold}{" "}
+              {selectItem.gold}{" "}
             </Text>
             <Text mx={2} as={"b"} color={"#71717a"} fontSize="xl">
-              {selectJunk.silver}{" "}
+              {selectItem.silver}{" "}
             </Text>
             <Text mx={2} as={"b"} color={"#b45309"} fontSize="xl">
-              {selectJunk.copper}{" "}
+              {selectItem.copper}{" "}
             </Text>
           </Box>
         </Box>
         <Box>
-          <Text>{selectJunk.loot}</Text>
+          <Text>{selectItem.loot}</Text>
         </Box>
         <Box>
-          <Text as={"b"}>Loot on : {selectJunk.mob}</Text>
-          <Link href={selectJunk.mobLink}>
-            <Image src={selectJunk.mobPic} alt="Pic" width={300} height={300} />
+          <Text as={"b"}>Loot on : {selectItem.mob}</Text>
+          <Link href={selectItem.mobLink}>
+            <Image src={selectItem.mobPic} alt="Pic" width={300} height={300} />
           </Link>
         </Box>
       </Flex>
@@ -60,24 +60,24 @@ export default function junk(props) {
 }
 
 export async function getStaticProps(context) {
-  const slug = context.params.junk;
-  const res = await import("/data/Junks.json");
+  const slug = context.params.questItem;
+  const res = await import("/data/QuestItems.json");
   const data = res.data;
 
-  const selectedJunk = data.find((junk) => junk.id === slug);
+  const selectedItem = data.find((item) => item.id === slug);
 
   return {
     props: {
-      selectedJunk,
+      selectedItem,
     },
   };
 }
 
 export async function getStaticPaths() {
-  const res = await import("/data/Junks.json");
+  const res = await import("/data/QuestItems.json");
   const data = res.data;
   const paths = data.map((item) => ({
-    params: { junk: item.id },
+    params: { questItem: item.id },
   }));
 
   return {

@@ -1,0 +1,73 @@
+{
+  "name": "Crafting Materials",
+  "data": [
+    {
+      "id": "1",
+      "name": "Lavender",
+      "gather": true,
+      "spotPic": "/CraftingMaterials/Spot/LavanderSpot.png",
+      "mobList": [
+        {
+          "name": "Victor",
+          "link": "/enemies/1"
+        }
+      ],
+      "useIn": "Medic",
+      "source": "Plants",
+      "pic": "/CraftingMaterials/Lavender.png"
+    },
+    {
+      "id": "2",
+      "name": "Copper Ore",
+      "gather": true,
+      "spotPic": "/CraftingMaterials/Spot/CopperSpot.png",
+      "mobList": [
+        {
+          "name": "Victor",
+          "link": "/enemies/1"
+        }
+      ],
+      "useIn": "Basic",
+      "source": "Jewel",
+      "pic": "/CraftingMaterials/CopperOre.png"
+    },
+    {
+      "id": "3",
+      "name": "Coal Ore",
+      "gather": true,
+      "spotPic": "/CraftingMaterials/Spot/CopperSpot.png",
+      "lootOnMob": false,
+      "mobList": [
+        {
+          "name": "",
+          "link": ""
+        }
+      ],
+      "useIn": "Blacksmithing",
+      "source": "Ore",
+      "pic": "/CraftingMaterials/CoalOre.png"
+    },
+    {
+      "id": "4",
+      "name": "Linen Cloth",
+      "gather": false,
+      "spotPic": "",
+      "lootOnMob": true,
+      "mobList": [
+        {
+          "id": "1",
+          "name": "Victor",
+          "link": "/enemies/1"
+        },
+        {
+          "id": "2",
+          "name": "Zoe",
+          "link": "/enemies/2"
+        }
+      ],
+      "useIn": "Common",
+      "source": "First Aid",
+      "pic": "/CraftingMaterials/Linen.png"
+    }
+  ]
+}

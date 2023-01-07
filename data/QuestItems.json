@@ -1,0 +1,22 @@
+{
+  "name": "QuestItems",
+  "data": [
+    {
+      "id": "1",
+      "name": "Wolf Meat",
+      "quest": "/quest/1",
+      "pic": "",
+      "mob": "Wolf",
+      "mobLink": "/enemies/1"
+    },
+    {
+      "id": "2",
+      "name": "Spider legs",
+      "quest": "/quest/2",
+      "pic": "/Junk/spider legs.png",
+      "mob": "Small Spider",
+      "mobLink": "/enemies/2",
+      "mobPic": "/enemies/small spider.png"
+    }
+  ]
+}

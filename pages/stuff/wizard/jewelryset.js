@@ -1,4 +1,4 @@
-import StuffNavbar from "../../../components/stuffNavbar/stuffWizardNavbar";
+import StuffNavbar from "../../../components/subNavbar/stuffWizardNavbar";
 import {
   Flex,
   Grid,
@@ -13,6 +13,10 @@ import {
   StackDivider,
   HStack,
   Image,
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  Portal,
 } from "@chakra-ui/react";
 
 export default function jewelryset(props) {
@@ -45,45 +49,87 @@ export default function jewelryset(props) {
               key={set.id}
               boxShadow={rarityShadow}
             >
-              <CardHeader>
+              <CardHeader align={"center"}>
                 <Heading size="md" color={rarityName}>
-                  {" "}
                   {set.name}
                 </Heading>
+                <Text>Full set require lvl {set.levelForEquip}</Text>
               </CardHeader>
-              <CardBody>
+              <CardBody align={"center"}>
                 <Stack divider={<StackDivider />} spacing="2">
                   <HStack spacing={12}>
-                    <Image
-                      src={set.neckPicMini}
-                      alt="Stuff Mini Pic"
-                      borderRadius="lg"
-                      width={65}
-                      height={65}
-                    />
-                    <Text>{set.neck}</Text>
+                    <Popover>
+                      <PopoverTrigger>
+                        <Image
+                          src={set.neckPicMini}
+                          alt="Stuff Mini Pic"
+                          width={65}
+                          height={65}
+                          borderRadius="lg"
+                        />
+                      </PopoverTrigger>
+                      <Text>{set.neck}</Text>
+                      <Portal>
+                        <PopoverContent w={605} h={620}>
+                          <Image
+                            src={set.neckPic}
+                            alt="Stuff Pic"
+                            width={605}
+                            height={620}
+                          />
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
                   </HStack>
 
                   <HStack spacing={12}>
-                    <Image
-                      src={set.ringPicMini}
-                      alt="Stuff Mini Pic"
-                      borderRadius="lg"
-                      width={65}
-                      height={65}
-                    />
-                    <Text>{set.ring}</Text>
+                    <Popover>
+                      <PopoverTrigger>
+                        <Image
+                          src={set.ringPicMini}
+                          alt="Stuff Mini Pic"
+                          width={65}
+                          height={65}
+                          borderRadius="lg"
+                        />
+                      </PopoverTrigger>
+                      <Text>{set.ring}</Text>
+                      <Portal>
+                        <PopoverContent w={605} h={620}>
+                          <Image
+                            src={set.ringPic}
+                            alt="Stuff Pic"
+                            width={605}
+                            height={620}
+                          />
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
                   </HStack>
 
                   <HStack spacing={12}>
-                    <Image
-                      src={set.earringPicMini}
-                      alt="Stuff Mini Pic"
-                      borderRadius="lg"
-                      width={65}
-                      height={65}
-                    />
-                    <Text>{set.earring}</Text>
+                    <Popover>
+                      <PopoverTrigger>
+                        <Image
+                          src={set.earringPicMini}
+                          alt="Stuff Mini Pic"
+                          width={65}
+                          height={65}
+                          borderRadius="lg"
+                        />
+                      </PopoverTrigger>
+                      <Text>{set.earring}</Text>
+                      <Portal>
+                        <PopoverContent w={605} h={620}>
+                          <Image
+                            src={set.earringPic}
+                            alt="Stuff Pic"
+                            width={605}
+                            height={620}
+                          />
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
                   </HStack>
                 </Stack>
               </CardBody>

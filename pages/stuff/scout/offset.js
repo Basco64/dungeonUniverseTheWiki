@@ -1,4 +1,4 @@
-import StuffNavbar from "../../../components/stuffNavbar/stuffScoutNavbar";
+import StuffNavbar from "../../../components/subNavbar/stuffScoutNavbar";
 import {
   Flex,
   Grid,
@@ -9,6 +9,10 @@ import {
   Heading,
   VStack,
   Image,
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  Portal,
 } from "@chakra-ui/react";
 
 export default function scoutOffset(props) {
@@ -42,13 +46,27 @@ export default function scoutOffset(props) {
               boxShadow={rarityShadow}
             >
               <CardHeader>
-                <Image
-                  src={set.stuffPicMini}
-                  alt="Stuff Mini Pic"
-                  borderRadius="lg"
-                  width={65}
-                  height={65}
-                />
+                <Popover>
+                  <PopoverTrigger>
+                    <Image
+                      src={set.stuffPicMini}
+                      alt="Stuff Mini Pic"
+                      width={65}
+                      height={65}
+                      borderRadius="lg"
+                    />
+                  </PopoverTrigger>
+                  <Portal>
+                    <PopoverContent w={600} h={400}>
+                      <Image
+                        src={set.stuffPic}
+                        alt="Stuff Pic"
+                        width={600}
+                        height={400}
+                      />
+                    </PopoverContent>
+                  </Portal>
+                </Popover>
               </CardHeader>
               <CardBody>
                 <VStack spacing={12}>

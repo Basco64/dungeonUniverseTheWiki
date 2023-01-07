@@ -1,27 +1,26 @@
 {
-  "name": "Junks",
+  "name": "Consumables",
   "data": [
     {
       "id": "1",
-      "name": "Wolf Fur",
-      "copper": "18 c",
-      "silver": "0 s",
-      "gold": "0 g",
-      "pic": "/junk/wolf fur.png",
-      "mob": "Wolf",
-      "mobLink": "/enemies/1",
-      "mobPic": "/enemies/wolf.png"
+      "name": "Bread",
+      "effects": " Heal 180 HP in 30 sec.",
+      "source": "Loot on mob or vendor",
+      "pic": "/Consumable/Brain.png"
     },
     {
       "id": "2",
-      "name": "Spider legs",
-      "copper": "19 c",
-      "silver": "0 s",
-      "gold": "0 g",
-      "pic": "/Junk/spider legs.png",
-      "mob": "Small Spider",
-      "mobLink": "/enemies/2",
-      "mobPic": "/enemies/small spider.png"
+      "name": "Milk",
+      "effects": "Regen 180 MP in 30 sec",
+      "source": "Loot on mob or vendor",
+      "pic": "/Consumable/Milk.png"
+    },
+    {
+      "id": "3",
+      "name": "Linen Bandage",
+      "effects": "Heal 180 HP in 6 sec.",
+      "source": "Craft",
+      "pic": "/Consumable/LinenBandage.png"
     }
   ]
 }

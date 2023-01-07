@@ -38,7 +38,7 @@ export default function ItemNav() {
       </MenuButton>
 
       <MenuList bg={"#171717"}>
-        <Link href="/items/junks" passHref scroll={false}>
+        <Link href="/items/junks">
           <MenuItem
             color="white"
             bg={"#262626"}
@@ -50,7 +50,7 @@ export default function ItemNav() {
           </MenuItem>
         </Link>
 
-        <Link href="/items/junks" passHref scroll={false}>
+        <Link href="/items/consumables">
           <MenuItem
             color="white"
             bg={"#262626"}
@@ -58,7 +58,43 @@ export default function ItemNav() {
               bg: "#171717",
             }}
           >
-            Comsumable
+            Comsumables
+          </MenuItem>
+        </Link>
+
+        <Link href="/items/materials">
+          <MenuItem
+            color="white"
+            bg={"#262626"}
+            _hover={{
+              bg: "#171717",
+            }}
+          >
+            Materials
+          </MenuItem>
+        </Link>
+
+        <Link href="/items/questitems">
+          <MenuItem
+            color="white"
+            bg={"#262626"}
+            _hover={{
+              bg: "#171717",
+            }}
+          >
+            Quest Items
+          </MenuItem>
+        </Link>
+
+        <Link href="/items/recipes">
+          <MenuItem
+            color="white"
+            bg={"#262626"}
+            _hover={{
+              bg: "#171717",
+            }}
+          >
+            Recipes
           </MenuItem>
         </Link>
       </MenuList>

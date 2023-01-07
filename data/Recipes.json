@@ -1,27 +1,151 @@
 {
-  "name": "Junks",
-  "data": [
+  "recipes": [
     {
-      "id": "1",
-      "name": "Wolf Fur",
-      "copper": "18 c",
-      "silver": "0 s",
-      "gold": "0 g",
-      "pic": "/junk/wolf fur.png",
-      "mob": "Wolf",
-      "mobLink": "/enemies/1",
-      "mobPic": "/enemies/wolf.png"
+      "name": "Blacksmith",
+      "data": [
+        {
+          "id": "1",
+          "name": "Recipe Name",
+          "Minipic": "/junk/wolf fur.png",
+          "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemLink": "",
+          "lootOn": [
+            {
+              "id": "1",
+              "NPC": true,
+              "name": "Sophie",
+              "link": "/NPC/1"
+            },
+            {
+              "id": "2",
+              "NPC": false,
+              "name": "Wolf",
+              "link": "/enemies/1"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Recipe Name",
+          "Minipic": "/junk/wolf fur.png",
+          "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemLink": "",
+          "lootOn": [
+            {
+              "id": "1",
+              "NPC": true,
+              "name": "Sophie",
+              "link": "/NPC/1"
+            },
+            {
+              "id": "2",
+              "NPC": false,
+              "name": "Wolf",
+              "link": "/enemies/1"
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Spider legs",
-      "copper": "19 c",
-      "silver": "0 s",
-      "gold": "0 g",
-      "pic": "/Junk/spider legs.png",
-      "mob": "Small Spider",
-      "mobLink": "/enemies/2",
-      "mobPic": "/enemies/small spider.png"
+      "name": "Jewelry",
+      "data": [
+        {
+          "id": "3",
+          "name": "Recipe Name",
+          "Minipic": "/junk/wolf fur.png",
+          "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemLink": "/Recipe/HeavyLinenBandageMini.png",
+          "lootOn": [
+            {
+              "id": "1",
+              "NPC": true,
+              "name": "Sophie",
+              "link": "/NPC/1"
+            },
+            {
+              "id": "2",
+              "NPC": false,
+              "name": "Wolf",
+              "link": "/enemies/1"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Recipe Name",
+          "Minipic": "/junk/wolf fur.png",
+          "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemLink": "/items/consumables",
+          "lootOn": [
+            {
+              "id": "1",
+              "NPC": true,
+              "name": "Sophie",
+              "link": "/NPC/1"
+            },
+            {
+              "id": "2",
+              "NPC": false,
+              "name": "Wolf",
+              "link": "/enemies/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "First Aid",
+      "data": [
+        {
+          "id": "5",
+          "name": "Heavy Linen Bandage",
+          "Minipic": "/Recipe/HeavyLinenBandageMini.png",
+          "RecipePic": "/Recipe/HeavyLinenBandageRecipe.png",
+          "ItemPic": "/Recipe/HeavyLinenBandage.png",
+          "ItemLink": "/items/consumables",
+          "lootOn": [
+            {
+              "id": "1",
+              "NPC": true,
+              "name": "Sophie",
+              "link": "/NPC/1"
+            },
+            {
+              "id": "2",
+              "NPC": false,
+              "name": "Wolf",
+              "link": "/enemies/1"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Recipe Name",
+          "Minipic": "/junk/wolf fur.png",
+          "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
+          "ItemLink": "/Recipe/HeavyLinenBandageMini.png",
+          "lootOn": [
+            {
+              "id": "1",
+              "NPC": true,
+              "name": "Sophie",
+              "link": "/NPC/1"
+            },
+            {
+              "id": "2",
+              "NPC": false,
+              "name": "Wolf",
+              "link": "/enemies/1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

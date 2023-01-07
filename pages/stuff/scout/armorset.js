@@ -1,4 +1,4 @@
-import StuffNavbar from "../../../components/stuffNavbar/stuffScoutNavbar";
+import StuffNavbar from "../../../components/subNavbar/stuffScoutNavbar";
 import {
   Flex,
   Grid,
@@ -13,6 +13,10 @@ import {
   StackDivider,
   HStack,
   Image,
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  Portal,
 } from "@chakra-ui/react";
 
 export default function scoutArmorSet(props) {
@@ -44,78 +48,162 @@ export default function scoutArmorSet(props) {
               key={set.id}
               boxShadow={rarityShadow}
             >
-              <CardHeader>
+              <CardHeader align="center">
                 <Heading size="md" color={rarityName}>
-                  {" "}
                   {set.name}
                 </Heading>
+                <Text>Full set require lvl {set.levelForEquip}</Text>
               </CardHeader>
-              <CardBody>
+              <CardBody align={"center"}>
                 <Stack divider={<StackDivider />} spacing="2">
                   <HStack spacing={12}>
-                    <Image
-                      src={set.headPicMini}
-                      alt="Stuff Mini Pic"
-                      borderRadius="lg"
-                      width={65}
-                      height={65}
-                    />
-                    <Text>{set.head}</Text>
+                    <Popover>
+                      <PopoverTrigger>
+                        <Image
+                          src={set.headPicMini}
+                          alt="Stuff Mini Pic"
+                          width={65}
+                          height={65}
+                          borderRadius="lg"
+                        />
+                      </PopoverTrigger>
+                      <Text>{set.head}</Text>
+                      <Portal>
+                        <PopoverContent w={605} h={620}>
+                          <Image
+                            src={set.headPic}
+                            alt="Stuff Pic"
+                            width={605}
+                            height={620}
+                          />
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
                   </HStack>
 
                   <HStack spacing={12}>
-                    <Image
-                      src={set.shouldersPicMini}
-                      alt="Stuff Mini Pic"
-                      borderRadius="lg"
-                      width={65}
-                      height={65}
-                    />
-                    <Text>{set.shoulders}</Text>
+                    <Popover>
+                      <PopoverTrigger>
+                        <Image
+                          src={set.shouldersPicMini}
+                          alt="Stuff Mini Pic"
+                          width={65}
+                          height={65}
+                          borderRadius="lg"
+                        />
+                      </PopoverTrigger>
+                      <Text>{set.shoulders}</Text>
+                      <Portal>
+                        <PopoverContent w={605} h={620}>
+                          <Image
+                            src={set.shouldersPic}
+                            alt="Stuff Pic"
+                            width={605}
+                            height={620}
+                          />
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
                   </HStack>
 
                   <HStack spacing={12}>
-                    <Image
-                      src={set.chestPicMini}
-                      alt="Stuff Mini Pic"
-                      borderRadius="lg"
-                      width={65}
-                      height={65}
-                    />
-                    <Text>{set.chest}</Text>
+                    <Popover>
+                      <PopoverTrigger>
+                        <Image
+                          src={set.chestPicMini}
+                          alt="Stuff Mini Pic"
+                          width={65}
+                          height={65}
+                          borderRadius="lg"
+                        />
+                      </PopoverTrigger>
+                      <Text>{set.chest}</Text>
+                      <Portal>
+                        <PopoverContent w={605} h={620}>
+                          <Image
+                            src={set.chestPic}
+                            alt="Stuff Pic"
+                            width={605}
+                            height={620}
+                          />
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
                   </HStack>
 
                   <HStack spacing={12}>
-                    <Image
-                      src={set.glovesPicMini}
-                      alt="Pic"
-                      borderRadius="lg"
-                      width={65}
-                      height={65}
-                    />
-                    <Text>{set.gloves}</Text>
+                    <Popover>
+                      <PopoverTrigger>
+                        <Image
+                          src={set.glovesPicMini}
+                          alt="Stuff Mini Pic"
+                          width={65}
+                          height={65}
+                          borderRadius="lg"
+                        />
+                      </PopoverTrigger>
+                      <Text>{set.gloves}</Text>
+                      <Portal>
+                        <PopoverContent w={605} h={620}>
+                          <Image
+                            src={set.glovesPic}
+                            alt="Stuff Pic"
+                            width={605}
+                            height={620}
+                          />
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
                   </HStack>
 
                   <HStack spacing={12}>
-                    <Image
-                      src={set.legsPicMini}
-                      alt="Pic"
-                      borderRadius="lg"
-                      width={65}
-                      height={65}
-                    />
-                    <Text>{set.legs}</Text>
+                    <Popover>
+                      <PopoverTrigger>
+                        <Image
+                          src={set.legsPicMini}
+                          alt="Stuff Mini Pic"
+                          width={65}
+                          height={65}
+                          borderRadius="lg"
+                        />
+                      </PopoverTrigger>
+                      <Text>{set.legs}</Text>
+                      <Portal>
+                        <PopoverContent w={605} h={620}>
+                          <Image
+                            src={set.legsPic}
+                            alt="Stuff Pic"
+                            width={605}
+                            height={620}
+                          />
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
                   </HStack>
 
                   <HStack spacing={12}>
-                    <Image
-                      src={set.feetPicMini}
-                      alt="Pic"
-                      borderRadius="lg"
-                      width={65}
-                      height={65}
-                    />
-                    <Text>{set.feet}</Text>
+                    <Popover>
+                      <PopoverTrigger>
+                        <Image
+                          src={set.feetPicMini}
+                          alt="Stuff Mini Pic"
+                          width={65}
+                          height={65}
+                          borderRadius="lg"
+                        />
+                      </PopoverTrigger>
+                      <Text>{set.feet}</Text>
+                      <Portal>
+                        <PopoverContent w={605} h={620}>
+                          <Image
+                            src={set.feetPic}
+                            alt="Stuff Pic"
+                            width={605}
+                            height={620}
+                          />
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
                   </HStack>
                 </Stack>
               </CardBody>
