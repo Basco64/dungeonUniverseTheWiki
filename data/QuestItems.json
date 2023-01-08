@@ -7,7 +7,8 @@
       "quest": "/quest/1",
       "pic": "",
       "mob": "Wolf",
-      "mobLink": "/enemies/1"
+      "mobLink": "/Enemies/1",
+      "mobPic": "/Enemies/Wolf.png"
     },
     {
       "id": "2",
@@ -16,7 +17,7 @@
       "pic": "/Junk/spider legs.png",
       "mob": "Small Spider",
       "mobLink": "/enemies/2",
-      "mobPic": "/enemies/small spider.png"
+      "mobPic": "/Enemies/smallSpider.png"
     }
   ]
 }

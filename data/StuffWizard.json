@@ -1,5 +1,5 @@
 {
-  "name": "StuffWizard",
+  "name": "StuffScout",
   "data": [
     {
       "OffSet": [
@@ -10,8 +10,8 @@
           "levelForEquip": "12",
           "slot": "Neck",
           "name": "Necklace Of Ursus",
-          "stuffPic": "/Stuff/Wizard/OffSet/necklaceOfUrsus.png",
-          "stuffPicMini": "/Stuff/Wizard/OffSet/necklaceOfUrsusMini.png"
+          "stuffPic": "/Stuff/Wizard/OffSet/NecklaceOfUrsus.png",
+          "stuffPicMini": "/Stuff//MiniPic/Jewel/OffSet/NecklaceOfUrsus.png"
         }
       ]
     },
@@ -24,8 +24,8 @@
           "levelForEquip": "12",
           "name": "Necklace Of Ursus",
           "slot": "Neck",
-          "stuffPic": "/Stuff/Wizard/OffSet/necklaceOfUrsus.png",
-          "stuffPicMini": "/Stuff/Wizard/OffSet/necklaceOfUrsusMini.png"
+          "stuffPic": "/Stuff/Wizard/OffSet/NecklaceOfUrsus.png",
+          "stuffPicMini": "/Stuff/MiniPic/Jewel/OffSet/NecklaceOfUrsus.png"
         }
       ]
     },
@@ -37,49 +37,49 @@
           "rarity": "Uncommon",
           "levelForEquip": "12",
           "head": "Midcreek leather helmet?",
-          "headPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
-          "headPicMini": "/Stuff/Scout/ArmorSet/ChestT1Mini.png",
+          "headPic": "/Stuff/Scout/ArmorSet/T1/Chest.png",
+          "headPicMini": "/Stuff/MiniPic/Armor/T1/Chest.png",
           "shoulders": "Midcreek leather shoulders",
-          "shouldersPic": "/Stuff/Scout/ArmorSet/ShouldersT1.png",
-          "shouldersPicMini": "/Stuff/Scout/ArmorSet/ShouldersT1Mini.png",
+          "shouldersPic": "/Stuff/Scout/ArmorSet/T1/Shoulders.png",
+          "shouldersPicMini": "/Stuff/MiniPic/Armor/T1/Shoulders.png",
           "chest": "Midcreek leather chest",
-          "chestPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
-          "chestPicMini": "/Stuff/Scout/ArmorSet/ChestT1Mini.png",
+          "chestPic": "/Stuff/Scout/ArmorSet/T1/Chest.png",
+          "chestPicMini": "/Stuff/MiniPic/Armor/T1/Chest.png",
           "gloves": "Midcreek leather gloves",
-          "glovesPic": "/Stuff/Scout/ArmorSet/GlovesT1.png",
-          "glovesPicMini": "/Stuff/Scout/ArmorSet/GlovesT1Mini.png",
+          "glovesPic": "/Stuff/Scout/ArmorSet/T1/Gloves.png",
+          "glovesPicMini": "/Stuff/MiniPic/Armor/T1/Gloves.png",
           "legs": "Midcreek leather pants",
-          "legsPic": "/Stuff/Scout/ArmorSet/LegsT1.png",
-          "legsPicMini": "/Stuff/Scout/ArmorSet/LegsT1Mini.png",
+          "legsPic": "/Stuff/Scout/ArmorSet/T1/Legs.png",
+          "legsPicMini": "/Stuff/MiniPic/Armor/T1/Legs.png",
           "feet": "Midcreek leather boots",
-          "feetPic": "/Stuff/Scout/ArmorSet/FeetT1.png",
-          "feetPicMini": "/Stuff/Scout/ArmorSet/FeetT1Mini.png",
-          "setPic": "/Stuff/Scout/ArmorSet/SetT1.png"
+          "feetPic": "/Stuff/Scout/ArmorSet/T1/Feet.png",
+          "feetPicMini": "/Stuff/MiniPic/Armor/T1/Feet.png",
+          "setPic": "/Stuff/Scout/ArmorSet/T1/Set.png"
         },
         {
           "id": "2",
-          "name": "Scout T1",
-          "rarity": "Common",
+          "name": "Midcreed Scout Set T1",
+          "rarity": "Uncommon",
           "levelForEquip": "12",
-          "head": "tete",
-          "headPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
-          "headPicMini": "/Stuff/Scout/ArmorSet/ChestT1Mini.png",
-          "shoulders": "epaules",
-          "shouldersPic": "/Stuff/Scout/ArmorSet/ShouldersT1.png",
-          "shouldersPicMini": "/Stuff/Scout/ArmorSet/ShouldersT1Mini.png",
-          "chest": "torse",
-          "chestPic": "/Stuff/Scout/ArmorSet/ChestT1.png",
-          "chestPicMini": "/Stuff/Scout/ArmorSet/ChestT1.png",
-          "gloves": "torse",
-          "glovesPic": "/Stuff/Scout/ArmorSet/GlovesT1.png",
-          "glovesPicMini": "/Stuff/Scout/ArmorSet/GlovesT1Mini.png",
-          "legs": "jambes",
-          "legsPic": "/Stuff/Scout/ArmorSet/LegsT1.png",
-          "legsPicMini": "/Stuff/Scout/ArmorSet/LegsT1Mini.png",
-          "feet": "pieds",
-          "feetPic": "/Stuff/Scout/ArmorSet/FeetT1.png",
-          "feetPicMini": "/Stuff/Scout/ArmorSet/FeetT1Mini.png",
-          "setPic": "/Stuff/Scout/ArmorSet/SetT1.png"
+          "head": "Midcreek leather helmet?",
+          "headPic": "/Stuff/Scout/ArmorSet/T1/Chest.png",
+          "headPicMini": "/Stuff/MiniPic/Armor/T1/Chest.png",
+          "shoulders": "Midcreek leather shoulders",
+          "shouldersPic": "/Stuff/Scout/ArmorSet/T1/Shoulders.png",
+          "shouldersPicMini": "/Stuff/MiniPic/Armor/T1/Shoulders.png",
+          "chest": "Midcreek leather chest",
+          "chestPic": "/Stuff/Scout/ArmorSet/T1/Chest.png",
+          "chestPicMini": "/Stuff/MiniPic/Armor/T1/Chest.png",
+          "gloves": "Midcreek leather gloves",
+          "glovesPic": "/Stuff/Scout/ArmorSet/T1/Gloves.png",
+          "glovesPicMini": "/Stuff/MiniPic/Armor/T1/Gloves.png",
+          "legs": "Midcreek leather pants",
+          "legsPic": "/Stuff/Scout/ArmorSet/T1/Legs.png",
+          "legsPicMini": "/Stuff/MiniPic/Armor/T1/Legs.png",
+          "feet": "Midcreek leather boots",
+          "feetPic": "/Stuff/Scout/ArmorSet/T1/Feet.png",
+          "feetPicMini": "/Stuff/MiniPic/Armor/T1/Feet.png",
+          "setPic": "/Stuff/Scout/ArmorSet/T1/Set.png"
         }
       ]
     },
@@ -91,15 +91,30 @@
           "levelForEquip": "12",
           "name": "Scout Copper Jewelery Set",
           "neck": "tete",
-          "neckPic": "/Stuff/Scout/JewelSet/NeckCopper.png",
-          "neckPicMini": "/Stuff/Common/Jewel/NeckCopperMini.png",
+          "neckPic": "/Stuff/Scout/JewelSet/CopperSet/Neck.png",
+          "neckPicMini": "/Stuff/MiniPic/Jewel/CopperSet/Neck.png",
           "ring": "epaules",
-          "ringPic": "/Stuff/Scout/JewelSet/RingCopper.png",
-          "ringPicMini": "/Stuff/Common/Jewel/RingCopperMini.png",
+          "ringPic": "/Stuff/Scout/JewelSet/CopperSet/Ring.png",
+          "ringPicMini": "/Stuff/MiniPic/Jewel/CopperSet/Ring.png",
           "earring": "torse",
-          "earringPic": "/Stuff/Scout/JewelSet/EarringCopper.png",
-          "earringPicMini": "/Stuff/Common/Jewel/EarringCopperMini.png",
-          "setPic": "/Stuff/Scout/JewelSet/CopperScoutSet.png"
+          "earringPic": "/Stuff/Scout/JewelSet/CopperSet/Earring.png",
+          "earringPicMini": "/Stuff/MiniPic/Jewel/CopperSet/Earring.png",
+          "setPic": "/Stuff/Scout/JewelSet/CopperSet/Set.png"
+        }
+      ]
+    },
+
+    {
+      "Weapon": [
+        {
+          "id": "1",
+          "NFT": false,
+          "rarity": "Uncommon",
+          "levelForEquip": "12",
+          "name": "Necklace Of Ursus",
+          "slot": "Neck",
+          "stuffPic": "/Stuff/Wizard/OffSet/NecklaceOfUrsus.png",
+          "stuffPicMini": "/Stuff/MiniPic/Jewel/OffSet/NecklaceOfUrsus.png"
         }
       ]
     }

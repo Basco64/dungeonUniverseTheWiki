@@ -5,21 +5,33 @@
       "id": "1",
       "name": "Bread",
       "effects": " Heal 180 HP in 30 sec.",
-      "source": "Loot on mob or vendor",
+      "craft": false,
+      "source": [
+        { "id": "1", "enemi": true, "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "enemi": false, "name": "Grace", "link": "/NPC/1" }
+      ],
       "pic": "/Consumable/Brain.png"
     },
     {
       "id": "2",
       "name": "Milk",
-      "effects": "Regen 180 MP in 30 sec",
-      "source": "Loot on mob or vendor",
+      "effects": "Regen 180 MP in 30 sec.",
+      "craft": false,
+      "source": [
+        { "id": "1", "enemi": true, "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "enemi": false, "name": "Grace", "link": "/NPC/1" }
+      ],
       "pic": "/Consumable/Milk.png"
     },
     {
       "id": "3",
       "name": "Linen Bandage",
       "effects": "Heal 180 HP in 6 sec.",
-      "source": "Craft",
+      "craft": true,
+      "source": [
+        { "id": "1", "enemi": true, "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "enemi": false, "name": "Grace", "link": "/NPC/1" }
+      ],
       "pic": "/Consumable/LinenBandage.png"
     }
   ]

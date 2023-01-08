@@ -33,20 +33,20 @@ export default function Wizard() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/basicSpellMini.png"
+                  src="/Player/Wizard/BasicSpellMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Basic Spell</Heading>
                   <Text mx={"auto"}>Require level 1</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/basicSpell.png"
+                  src="/Player/Wizard/BasicSpell.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -56,20 +56,20 @@ export default function Wizard() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/fireBallMini.png"
+                  src="/Player/Wizard/FireBallMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Fireball</Heading>
                   <Text mx={"auto"}>Require level 1</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/fireBall.png"
+                  src="/Player/Wizard/FireBall.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -79,20 +79,20 @@ export default function Wizard() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/shadowDoomMini.png"
+                  src="/Player/Wizard/ShadowDoomMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Shadow Doom</Heading>
                   <Text mx={"auto"}>Require level 5</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/shadowDoom.png"
+                  src="/Player/Wizard/ShadowDoom.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -102,20 +102,20 @@ export default function Wizard() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/rejuvenationMini.png"
+                  src="/Player/Wizard/RejuvenationMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Rejunevation</Heading>
                   <Text mx={"auto"}>Require level 10</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/rejuvenation.png"
+                  src="/Player/Wizard/Rejuvenation.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -125,20 +125,20 @@ export default function Wizard() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/blessMindMini.png"
+                  src="/Player/Wizard/BlessMindMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Bless Mind</Heading>
                   <Text mx={"auto"}>Require level 15</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/blessMind.png"
+                  src="/Player/Wizard/BlessMind.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -154,7 +154,7 @@ export default function Wizard() {
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>??</Heading>
                   <Text mx={"auto"}>Require level 20</Text>
                 </Stack>

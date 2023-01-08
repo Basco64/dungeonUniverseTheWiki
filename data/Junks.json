@@ -7,10 +7,10 @@
       "copper": "18 c",
       "silver": "0 s",
       "gold": "0 g",
-      "pic": "/junk/wolf fur.png",
+      "pic": "/Junk/WolfFur.png",
       "mob": "Wolf",
       "mobLink": "/enemies/1",
-      "mobPic": "/enemies/wolf.png"
+      "mobPic": "/Enemies/Wolf.png"
     },
     {
       "id": "2",
@@ -18,10 +18,10 @@
       "copper": "19 c",
       "silver": "0 s",
       "gold": "0 g",
-      "pic": "/Junk/spider legs.png",
+      "pic": "/Junk/SpiderLegs.png",
       "mob": "Small Spider",
       "mobLink": "/enemies/2",
-      "mobPic": "/enemies/small spider.png"
+      "mobPic": "/Enemies/SmallSpider.png"
     },
     {
       "id": "3",
@@ -29,10 +29,10 @@
       "copper": "50 c",
       "silver": "2 s",
       "gold": "0 g",
-      "pic": "/Junk/insect parts.png",
+      "pic": "/Junk/InsectParts.png",
       "mob": "Small Toad",
       "mobLink": "/enemies/2",
-      "mobPic": "/enemies/small toad.png"
+      "mobPic": "/Enemies/SmallToad.png"
     },
     {
       "id": "4",
@@ -40,10 +40,10 @@
       "copper": "0 c",
       "silver": "5 s",
       "gold": "0 g",
-      "pic": "/Junk/feather.png",
+      "pic": "/Junk/Feather.png",
       "mob": "Valley Eagle",
       "mobLink": "/enemies/7",
-      "mobPic": "/enemies/valley eagle.png"
+      "mobPic": "/Enemies/ValleyEagle.png"
     }
   ]
 }

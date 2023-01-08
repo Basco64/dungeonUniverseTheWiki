@@ -95,11 +95,11 @@ export default function TableXp() {
           </Tr>
           <Tr>
             <Th>19</Th>
-            <Td>Ø</Td>
+            <Td>3 367 350</Td>
           </Tr>
           <Tr>
             <Th>20</Th>
-            <Td>Ø</Td>
+            <Td>5 051 025</Td>
           </Tr>
         </Tbody>
       </Table>

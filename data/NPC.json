@@ -5,10 +5,19 @@
       "id": "1",
       "name": "Grace",
       "type": "Quest",
-      "pic": "/NPC/grace.png",
+      "pic": "/NPC/Grace.png",
       "shop": false,
       "quest": true,
-      "picShop": "",
+      "shopList": [
+        {
+          "id": "",
+          "nameItem": "",
+          "linkItem": "",
+          "priceCopper": " ",
+          "priceSilver": " ",
+          "priceGold": " "
+        }
+      ],
       "questList": [
         {
           "id": "1",
@@ -26,10 +35,19 @@
       "id": "2",
       "name": "Minato",
       "type": "Quest",
-      "pic": "/npc/minato.png",
+      "pic": "/NPC/Minato.png",
       "shop": false,
       "quest": true,
-      "picShop": "",
+      "shopList": [
+        {
+          "id": "",
+          "nameItem": "",
+          "linkItem": "",
+          "priceCopper": " ",
+          "priceSilver": " ",
+          "priceGold": " "
+        }
+      ],
       "questList": [
         {
           "id": "3",
@@ -42,15 +60,37 @@
       "id": "3",
       "name": "Sebastian",
       "type": "Quest and Vendor",
-      "pic": "/npc/sebastian.png",
+      "pic": "/NPC/Sebastian.png",
       "shop": true,
       "quest": true,
-      "picShop": "/npc/shop/sebastianShop.png",
+      "shopList": [
+        {
+          "id": "1",
+          "name": "Bread",
+          "link": "/items/consumables",
+          "copper": "0",
+          "silver": "2",
+          "gold": " 50"
+        },
+        {
+          "id": "2",
+          "name": "Milk",
+          "link": "/items/consumables",
+          "copper": "50",
+          "silver": "2",
+          "gold": " 50"
+        }
+      ],
       "questList": [
         {
-          "id": "4",
-          "nameQuest": "",
-          "linkQuest": "/quests/"
+          "id": "1",
+          "nameQuest": "Salut la quete",
+          "linkQuest": "/quests/1"
+        },
+        {
+          "id": "12",
+          "nameQuest": "Salut la quete",
+          "linkQuest": "/quests/2"
         }
       ]
     },
@@ -58,10 +98,19 @@
       "id": "4",
       "name": "Arlo",
       "type": "Quest",
-      "pic": "/npc/arlo.png",
+      "pic": "/NPC/Arlo.png",
       "shop": false,
       "quest": true,
-      "picShop": "",
+      "shopList": [
+        {
+          "id": "",
+          "nameItem": "",
+          "linkItem": "",
+          "priceCopper": " ",
+          "priceSilver": " ",
+          "priceGold": " "
+        }
+      ],
       "questList": [
         {
           "id": "",
@@ -74,10 +123,19 @@
       "id": "5",
       "name": "Cateline",
       "type": "Quest",
-      "pic": "/npc/cateline.png",
+      "pic": "/NPC/Cateline.png",
       "shop": false,
       "quest": true,
-      "picShop": "",
+      "shopList": [
+        {
+          "id": "",
+          "nameItem": "",
+          "linkItem": "",
+          "priceCopper": " ",
+          "priceSilver": " ",
+          "priceGold": " "
+        }
+      ],
       "questList": [
         {
           "id": "",
@@ -90,10 +148,19 @@
       "id": "6",
       "name": "Hilda",
       "type": "Quest and Vendor",
-      "pic": "/npc/hilda.png",
+      "pic": "/NPC/Hilda.png",
       "shop": true,
       "quest": true,
-      "picShop": "/npc/shop/hildaShop.png",
+      "shopList": [
+        {
+          "id": "",
+          "nameItem": "",
+          "linkItem": "",
+          "priceCopper": " ",
+          "priceSilver": " ",
+          "priceGold": " "
+        }
+      ],
       "questList": [
         {
           "id": "",
@@ -106,10 +173,19 @@
       "id": "7",
       "name": "Elena",
       "type": "Quest",
-      "pic": "/npc/elena.png",
+      "pic": "/NPC/Elena.png",
       "shop": false,
       "quest": true,
-      "picShop": "",
+      "shopList": [
+        {
+          "id": "",
+          "nameItem": "",
+          "linkItem": "",
+          "priceCopper": " ",
+          "priceSilver": " ",
+          "priceGold": " "
+        }
+      ],
       "questList": [
         {
           "id": "",
@@ -122,10 +198,19 @@
       "id": "8",
       "name": "Brook",
       "type": "Quest",
-      "pic": "/npc/brook.png",
+      "pic": "/NPC/Brook.png",
       "shop": false,
       "quest": true,
-      "picShop": "",
+      "shopList": [
+        {
+          "id": "",
+          "nameItem": "",
+          "linkItem": "",
+          "priceCopper": " ",
+          "priceSilver": " ",
+          "priceGold": " "
+        }
+      ],
       "questList": [
         {
           "id": "",

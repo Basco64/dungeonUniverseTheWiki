@@ -33,20 +33,20 @@ export default function Scout() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/basicSpellMini.png"
+                  src="/Player/Scout/BasicShotMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
-                  <Heading>Basic Spell</Heading>
+                <Stack mt="6" spacing="3" align={"center"} align={"center"}>
+                  <Heading>Basic Shot</Heading>
                   <Text mx={"auto"}>Require level 1</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/basicSpell.png"
+                  src="/Player/Scout/BasicShot.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -56,20 +56,20 @@ export default function Scout() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/fireBallMini.png"
+                  src="/Player/Scout/PoisonArrowMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
-                  <Heading>Fireball</Heading>
+                <Stack mt="6" spacing="3" align={"center"}>
+                  <Heading>Poison Arrow</Heading>
                   <Text mx={"auto"}>Require level 1</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/fireBall.png"
+                  src="/Player/Scout/PoisonArrow.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -79,20 +79,20 @@ export default function Scout() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/shadowDoomMini.png"
+                  src="/Player/Scout/CripplingShotMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
-                  <Heading>Shadow Doom</Heading>
+                <Stack mt="6" spacing="3" align={"center"}>
+                  <Heading>Crippling Shot</Heading>
                   <Text mx={"auto"}>Require level 5</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/shadowDoom.png"
+                  src="/Player/Scout/CripplingShot.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -102,20 +102,20 @@ export default function Scout() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/rejuvenationMini.png"
+                  src="/Player/Scout/PowerShotMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
-                  <Heading>Rejunevation</Heading>
+                <Stack mt="6" spacing="3" align={"center"}>
+                  <Heading>Power Shot</Heading>
                   <Text mx={"auto"}>Require level 10</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/rejuvenation.png"
+                  src="/Player/Scout/PowerShot.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -125,20 +125,20 @@ export default function Scout() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/blessMindMini.png"
+                  src="/Player/Scout/FindWeaknessMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
-                  <Heading>Bless Mind</Heading>
+                <Stack mt="6" spacing="3" align={"center"}>
+                  <Heading>Find Weakness</Heading>
                   <Text mx={"auto"}>Require level 15</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/blessMind.png"
+                  src="/Player/Scout/FindWeakness.png"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -148,20 +148,20 @@ export default function Scout() {
             {/* <Card maxWidth="lg" variant="outline" align={"center"}>
             <CardBody>
               <Image
-                src=" /Player/Wizard/"
+                src=" /Player/Scout/"
                 alt="basic spell mini"
                 width={65}
                 height={65}
                 borderRadius="lg"
               />
-              <Stack mt="6" spacing="3">
+              <Stack mt="6" spacing="3" align={"center"}>
                 <Heading>??</Heading>
                 <Text mx={"auto"}>Require level 20</Text>
               </Stack>
             </CardBody>
             <CardFooter>
               <Image
-                src=" /Player/Wizard/"
+                src=" /Player/Scout/"
                 alt="basic spell"
                 width={600}
                 height={230}

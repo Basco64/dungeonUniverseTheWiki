@@ -5,7 +5,7 @@ import {
   Text,
   Flex,
   Stack,
-  VStack,
+  HStack,
   Heading,
   Tabs,
   Tab,
@@ -26,112 +26,173 @@ export default function Index(props) {
   const firstAid = recipes[2].data;
 
   return (
-    <Flex>
-      <Tabs w={"100%"}>
-        <TabList>
-          <Tab>First Aid</Tab>
-          <Tab>Blasmithing</Tab>
-          <Tab>Jewelry</Tab>
-        </TabList>
+    <>
+      <Box align={"center"}>
+        <Text as={"u"} fontWeight={"bold"}>
+          For more details, click on the image.
+        </Text>
+      </Box>
+      <Flex>
+        <Tabs w={"100%"}>
+          <TabList>
+            <Tab>First Aid</Tab>
+            <Tab>Blasmithing</Tab>
+            <Tab>Jewelry</Tab>
+          </TabList>
 
-        <TabPanels>
-          <TabPanel>
-            <Grid templateColumns="repeat(5, 1fr)" gap={6}>
-              {firstAid.map((recipe) => (
-                <Stack key={recipe.id} pt={6}>
-                  <Popover>
-                    <PopoverTrigger>
-                      <Image
-                        src={recipe.Minipic}
-                        alt="Pic"
-                        width={75}
-                        height={75}
-                      />
-                    </PopoverTrigger>
-                    <Link href={recipe.ItemLink}>
-                      <Text as={"u"}>{recipe.name}</Text>
-                    </Link>
-                    <Portal>
-                      <PopoverContent w={600} h={395}>
+          <TabPanels>
+            <TabPanel>
+              <Grid templateColumns="repeat(5, 1fr)" gap={6}>
+                {firstAid.map((recipe) => (
+                  <Stack key={recipe.id} pt={6}>
+                    <Popover>
+                      <PopoverTrigger>
                         <Image
-                          src={recipe.RecipePic}
+                          src={recipe.Minipic}
                           alt="Pic"
-                          width={600}
-                          height={395}
+                          width={75}
+                          height={75}
                         />
-                      </PopoverContent>
-                    </Portal>
-                  </Popover>
-                </Stack>
-              ))}
-            </Grid>
-          </TabPanel>
+                      </PopoverTrigger>
+                      <Link href={recipe.ItemLink}>
+                        <Text as={"u"}>{recipe.name}</Text>
+                      </Link>
+                      <Portal>
+                        <PopoverContent w={600} h={395}>
+                          <Box>
+                            <Image
+                              src={recipe.RecipePic}
+                              alt="Pic"
+                              width={600}
+                              height={395}
+                            />
+                            <Grid templateColumns="repeat(4, 1fr)" gap={6}>
+                              <Text as={"b"}>Loot on :</Text>
+                              {recipe.lootOn.map((pnj) => (
+                                <Link href={pnj.link}>
+                                  {pnj.NPC ? (
+                                    <Text key={pnj.id} color="green" as={"b"}>
+                                      {pnj.name}
+                                    </Text>
+                                  ) : (
+                                    <Text key={pnj.id} color="red" as={"b"}>
+                                      {pnj.name}
+                                    </Text>
+                                  )}
+                                </Link>
+                              ))}
+                            </Grid>
+                          </Box>
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
+                  </Stack>
+                ))}
+              </Grid>
+            </TabPanel>
 
-          <TabPanel>
-            <Grid templateColumns="repeat(5, 1fr)" gap={6}>
-              {blacksmith.map((recipe) => (
-                <Stack key={recipe.id} pt={6}>
-                  <Popover>
-                    <PopoverTrigger>
-                      <Image
-                        src={recipe.Minipic}
-                        alt="Pic"
-                        width={75}
-                        height={75}
-                      />
-                    </PopoverTrigger>
-                    <Link href={recipe.ItemLink}>
-                      <Text as={"u"}>{recipe.name}</Text>
-                    </Link>
-                    <Portal>
-                      <PopoverContent w={600} h={395}>
+            <TabPanel>
+              <Grid templateColumns="repeat(5, 1fr)" gap={6}>
+                {blacksmith.map((recipe) => (
+                  <Stack key={recipe.id} pt={6}>
+                    <Popover>
+                      <PopoverTrigger>
                         <Image
-                          src={recipe.RecipePic}
+                          src={recipe.Minipic}
                           alt="Pic"
-                          width={600}
-                          height={395}
+                          width={75}
+                          height={75}
                         />
-                      </PopoverContent>
-                    </Portal>
-                  </Popover>
-                </Stack>
-              ))}
-            </Grid>
-          </TabPanel>
-          <TabPanel>
-            <Grid templateColumns="repeat(5, 1fr)" gap={6}>
-              {JewelRecipe.map((recipe) => (
-                <Stack key={recipe.id} pt={6}>
-                  <Popover>
-                    <PopoverTrigger>
-                      <Image
-                        src={recipe.Minipic}
-                        alt="Pic"
-                        width={75}
-                        height={75}
-                      />
-                    </PopoverTrigger>
-                    <Link href={recipe.ItemLink}>
-                      <Text as={"u"}>{recipe.name}</Text>
-                    </Link>
-                    <Portal>
-                      <PopoverContent w={600} h={395}>
+                      </PopoverTrigger>
+                      <Link href={recipe.ItemLink}>
+                        <Text as={"u"}>{recipe.name}</Text>
+                      </Link>
+                      <Portal>
+                        <PopoverContent w={600} h={395}>
+                          <Box>
+                            <Image
+                              src={recipe.RecipePic}
+                              alt="Pic"
+                              width={600}
+                              height={395}
+                            />
+                            <Grid templateColumns="repeat(4, 1fr)" gap={6}>
+                              <Text as={"b"}>Loot on :</Text>
+                              {recipe.lootOn.map((pnj) => (
+                                <Link href={pnj.link}>
+                                  {pnj.NPC ? (
+                                    <Text key={pnj.id} color="green" as={"b"}>
+                                      {pnj.name}
+                                    </Text>
+                                  ) : (
+                                    <Text key={pnj.id} color="red" as={"b"}>
+                                      {pnj.name}
+                                    </Text>
+                                  )}
+                                </Link>
+                              ))}
+                            </Grid>
+                          </Box>
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
+                  </Stack>
+                ))}
+              </Grid>
+            </TabPanel>
+            <TabPanel>
+              <Grid templateColumns="repeat(5, 1fr)" gap={6}>
+                {JewelRecipe.map((recipe) => (
+                  <Stack key={recipe.id} pt={6}>
+                    <Popover>
+                      <PopoverTrigger>
                         <Image
-                          src={recipe.RecipePic}
+                          src={recipe.Minipic}
                           alt="Pic"
-                          width={600}
-                          height={395}
+                          width={75}
+                          height={75}
                         />
-                      </PopoverContent>
-                    </Portal>
-                  </Popover>
-                </Stack>
-              ))}
-            </Grid>
-          </TabPanel>
-        </TabPanels>
-      </Tabs>
-    </Flex>
+                      </PopoverTrigger>
+                      <Link href={recipe.ItemLink}>
+                        <Text as={"u"}>{recipe.name}</Text>
+                      </Link>
+                      <Portal>
+                        <PopoverContent w={600} h={395}>
+                          <Box>
+                            <Image
+                              src={recipe.RecipePic}
+                              alt="Pic"
+                              width={600}
+                              height={395}
+                            />
+                            <Grid templateColumns="repeat(4, 1fr)" gap={6}>
+                              <Text as={"b"}>Loot on :</Text>
+                              {recipe.lootOn.map((pnj) => (
+                                <Link href={pnj.link}>
+                                  {pnj.NPC ? (
+                                    <Text key={pnj.id} color="green" as={"b"}>
+                                      {pnj.name}
+                                    </Text>
+                                  ) : (
+                                    <Text key={pnj.id} color="red" as={"b"}>
+                                      {pnj.name}
+                                    </Text>
+                                  )}
+                                </Link>
+                              ))}
+                            </Grid>
+                          </Box>
+                        </PopoverContent>
+                      </Portal>
+                    </Popover>
+                  </Stack>
+                ))}
+              </Grid>
+            </TabPanel>
+          </TabPanels>
+        </Tabs>
+      </Flex>
+    </>
   );
 }
 

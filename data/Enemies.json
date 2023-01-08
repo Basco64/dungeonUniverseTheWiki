@@ -7,8 +7,11 @@
       "boss": false,
       "levels": "1-2",
       "health": "80-125",
-      "loot": "loot du loup",
-      "pic": "/enemies/wolf.png"
+      "loot": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+      ],
+      "pic": "/Enemies/Wolf.png"
     },
     {
       "id": "2",
@@ -16,8 +19,11 @@
       "boss": false,
       "levels": "3-5",
       "health": "180-320",
-      "loot": "loot de l'araignée",
-      "pic": "/enemies/small spider.png"
+      "loot": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+      ],
+      "pic": "/Enemies/SmallSpider.png"
     },
     {
       "id": "3",
@@ -25,8 +31,11 @@
       "boss": false,
       "levels": "5-7",
       "health": "320-500",
-      "loot": "loot du bandit",
-      "pic": "/enemies/bandit.png"
+      "loot": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+      ],
+      "pic": "/Enemies/Bandit.png"
     },
     {
       "id": "4",
@@ -34,8 +43,11 @@
       "boss": true,
       "levels": "10",
       "health": "1245",
-      "loot": "loot du bandit",
-      "pic": "/enemies/bandit leader.png"
+      "loot": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+      ],
+      "pic": "/Enemies/BanditLeader.png"
     },
     {
       "id": "5",
@@ -43,8 +55,11 @@
       "boss": true,
       "levels": "12",
       "health": "5125",
-      "loot": "loot du bandit",
-      "pic": "/enemies/ursus.png"
+      "loot": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+      ],
+      "pic": "/Enemies/Ursus.png"
     },
     {
       "id": "6",
@@ -52,8 +67,11 @@
       "boss": false,
       "levels": "8-10",
       "health": "605-845",
-      "loot": "loot small toad",
-      "pic": "/enemies/small toad.png"
+      "loot": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+      ],
+      "pic": "/Enemies/SmallToad.png"
     },
     {
       "id": "7",
@@ -61,8 +79,11 @@
       "boss": false,
       "levels": "11-13",
       "health": "605-845",
-      "loot": "loot eagle",
-      "pic": "/enemies/valley eagle.png"
+      "loot": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+      ],
+      "pic": "/Enemies/ValleyEagle.png"
     }
   ]
 }

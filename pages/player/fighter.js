@@ -39,7 +39,7 @@ export default function Fighter() {
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Basic Spell</Heading>
                   <Text mx={"auto"}>Require level 1</Text>
                 </Stack>
@@ -62,7 +62,7 @@ export default function Fighter() {
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Fireball</Heading>
                   <Text mx={"auto"}>Require level 1</Text>
                 </Stack>
@@ -85,7 +85,7 @@ export default function Fighter() {
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Shadow Doom</Heading>
                   <Text mx={"auto"}>Require level 5</Text>
                 </Stack>
@@ -108,7 +108,7 @@ export default function Fighter() {
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Rejunevation</Heading>
                   <Text mx={"auto"}>Require level 10</Text>
                 </Stack>
@@ -131,7 +131,7 @@ export default function Fighter() {
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Bless Mind</Heading>
                   <Text mx={"auto"}>Require level 15</Text>
                 </Stack>
@@ -154,7 +154,7 @@ export default function Fighter() {
                 height={65}
                 borderRadius="lg"
               />
-              <Stack mt="6" spacing="3">
+              <Stack mt="6" spacing="3" align={"center"}>
                 <Heading>??</Heading>
                 <Text mx={"auto"}>Require level 20</Text>
               </Stack>

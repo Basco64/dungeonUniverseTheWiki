@@ -1,10 +1,10 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Flex, Box, Text, Heading } from "@chakra-ui/react";
+import { Flex, Box, Text, Heading, VStack } from "@chakra-ui/react";
 
 export default function enemie(props) {
   const selectEnemie = props.selectedEnemie;
+
   return (
     <>
       <Flex>
@@ -16,11 +16,27 @@ export default function enemie(props) {
           ) : (
             <Heading as={"b"}>{selectEnemie.name}</Heading>
           )}
-          <Text fontWeight={"bold"}>Levels : {selectEnemie.levels}</Text>
+          <Text fontWeight={"bold"} py={6}>
+            Levels : {selectEnemie.levels}
+          </Text>
           <Text fontWeight={"bold"}>Health : {selectEnemie.health}</Text>
         </Box>
         <Box>
-          <Text>{selectEnemie.loot}</Text>
+          <VStack>
+            <Box>
+              <Heading pb={5}>Loot</Heading>
+            </Box>
+            <Box>
+              {selectEnemie.loot.map((loot) => (
+                <Link href={loot.link}>
+                  <Text key={loot.id} as={"b"} p={3}>
+                    {" "}
+                    {loot.name}
+                  </Text>
+                </Link>
+              ))}
+            </Box>
+          </VStack>
         </Box>
         <Box>
           <Image src={selectEnemie.pic} alt="Pic" width={300} height={300} />
@@ -50,6 +66,7 @@ export async function getStaticPaths() {
   const paths = data.map((item) => ({
     params: { enemie: item.id },
   }));
+
   return {
     paths,
     fallback: false,

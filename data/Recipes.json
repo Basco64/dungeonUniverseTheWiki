@@ -6,7 +6,7 @@
         {
           "id": "1",
           "name": "Recipe Name",
-          "Minipic": "/junk/wolf fur.png",
+          "Minipic": "/Junk/WolfFur.png",
           "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "",
@@ -28,7 +28,7 @@
         {
           "id": "2",
           "name": "Recipe Name",
-          "Minipic": "/junk/wolf fur.png",
+          "Minipic": "/Junk/WolfFur.png",
           "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "",
@@ -55,7 +55,7 @@
         {
           "id": "3",
           "name": "Recipe Name",
-          "Minipic": "/junk/wolf fur.png",
+          "Minipic": "/Junk/WolfFur.png",
           "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "/Recipe/HeavyLinenBandageMini.png",
@@ -77,7 +77,7 @@
         {
           "id": "4",
           "name": "Recipe Name",
-          "Minipic": "/junk/wolf fur.png",
+          "Minipic": "/Junk/WolfFur.png",
           "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "/items/consumables",
@@ -126,7 +126,7 @@
         {
           "id": "6",
           "name": "Recipe Name",
-          "Minipic": "/junk/wolf fur.png",
+          "Minipic": "/Junk/WolfFur.png",
           "RecipePic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "/Recipe/HeavyLinenBandageMini.png",

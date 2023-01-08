@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Flex, Heading, Box, Text, VStack } from "@chakra-ui/react";
+import { Flex, Heading, Box, Text, VStack, HStack } from "@chakra-ui/react";
 
 export default function npc(props) {
   const selectNPC = props.selectedNPC;
@@ -15,12 +15,12 @@ export default function npc(props) {
             {selectNPC.name}
           </Heading>
           <Text>Type : {selectNPC.type}</Text>
-          {selectNPC.quest && selectNPC.shop ? (
-            <Box>
+          {selectNPC.shop ? (
+            <Box pt={8}>
               {questList.map((quest) => (
                 <VStack key={quest.id}>
                   <Link href={quest.linkQuest}>
-                    <Text fontSize="3xl" as={"b"}>
+                    <Text fontSize="xl" as={"b"}>
                       {quest.nameQuest}
                     </Text>
                   </Link>
@@ -34,13 +34,31 @@ export default function npc(props) {
       </Box>
       <Box>
         {selectNPC.shop ? (
-          <Image
-            src={selectNPC.picShop}
-            alt="Pic"
-            width={550}
-            height={550}
-            className={"p-4"}
-          />
+          <VStack>
+            {" "}
+            {selectNPC.shopList.map((item) => (
+              <HStack key={item.id}>
+                <Link href={item.link}>
+                  <Text as={"b"} fontSize={"2xl"} pr={6}>
+                    {item.name}
+                  </Text>
+                  <Text as={"b"}>Price : </Text>
+                  <Text as={"b"} color={"#fbbf24"}>
+                    {" "}
+                    {item.gold}g
+                  </Text>
+                  <Text as={"b"} color={"#71717a"}>
+                    {" "}
+                    {item.silver}s
+                  </Text>
+                  <Text as={"b"} color={"#b45309"}>
+                    {" "}
+                    {item.copper}c
+                  </Text>
+                </Link>
+              </HStack>
+            ))}
+          </VStack>
         ) : (
           <Box>
             {questList.map((quest) => (
