@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Flex, Button, useColorModeValue, Text } from "@chakra-ui/react";
+import { Flex, Button, useColorModeValue, Text, Box } from "@chakra-ui/react";
 
 export default function StuffFighterNavbar() {
   return (
@@ -103,9 +103,12 @@ export default function StuffFighterNavbar() {
           </Button>
         </Link>
       </Flex>
-      <Flex align="center">
-        <Text>For see more about the stuff , click on the image</Text>
-      </Flex>
+
+      <Box align={"center"} pt={6}>
+        <Text as={"u"} fontWeight={"bold"}>
+          For more details, click on the image.
+        </Text>
+      </Box>
     </>
   );
 }
