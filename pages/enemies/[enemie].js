@@ -28,12 +28,14 @@ export default function enemie(props) {
             </Box>
             <Box>
               {selectEnemie.loot.map((loot) => (
-                <Link href={loot.link}>
-                  <Text key={loot.id} as={"b"} p={3}>
-                    {" "}
-                    {loot.name}
-                  </Text>
-                </Link>
+                <Box key={loot.id}>
+                  <Link href={loot.link}>
+                    <Text as={"b"} p={3}>
+                      {" "}
+                      {loot.name}
+                    </Text>
+                  </Link>
+                </Box>
               ))}
             </Box>
           </VStack>

@@ -11,11 +11,11 @@
       "shopList": [
         {
           "id": "",
-          "nameItem": "",
-          "linkItem": "",
-          "priceCopper": " ",
-          "priceSilver": " ",
-          "priceGold": " "
+          "name": "",
+          "link": "/",
+          "copper": "",
+          "silver": "",
+          "gold": ""
         }
       ],
       "questList": [
@@ -41,11 +41,11 @@
       "shopList": [
         {
           "id": "",
-          "nameItem": "",
-          "linkItem": "",
-          "priceCopper": " ",
-          "priceSilver": " ",
-          "priceGold": " "
+          "name": "",
+          "link": "/",
+          "copper": "",
+          "silver": "",
+          "gold": ""
         }
       ],
       "questList": [
@@ -104,11 +104,11 @@
       "shopList": [
         {
           "id": "",
-          "nameItem": "",
-          "linkItem": "",
-          "priceCopper": " ",
-          "priceSilver": " ",
-          "priceGold": " "
+          "name": "",
+          "link": "/",
+          "copper": "",
+          "silver": "",
+          "gold": ""
         }
       ],
       "questList": [
@@ -129,11 +129,11 @@
       "shopList": [
         {
           "id": "",
-          "nameItem": "",
-          "linkItem": "",
-          "priceCopper": " ",
-          "priceSilver": " ",
-          "priceGold": " "
+          "name": "",
+          "link": "/",
+          "copper": "",
+          "silver": "",
+          "gold": ""
         }
       ],
       "questList": [
@@ -153,12 +153,12 @@
       "quest": true,
       "shopList": [
         {
-          "id": "",
-          "nameItem": "",
-          "linkItem": "",
-          "priceCopper": " ",
-          "priceSilver": " ",
-          "priceGold": " "
+          "id": "1",
+          "name": "Bread",
+          "link": "/items/consumables",
+          "copper": "0",
+          "silver": "2",
+          "gold": " 50"
         }
       ],
       "questList": [
@@ -179,11 +179,11 @@
       "shopList": [
         {
           "id": "",
-          "nameItem": "",
-          "linkItem": "",
-          "priceCopper": " ",
-          "priceSilver": " ",
-          "priceGold": " "
+          "name": "",
+          "link": "/",
+          "copper": "",
+          "silver": "",
+          "gold": ""
         }
       ],
       "questList": [
@@ -204,11 +204,11 @@
       "shopList": [
         {
           "id": "",
-          "nameItem": "",
-          "linkItem": "",
-          "priceCopper": " ",
-          "priceSilver": " ",
-          "priceGold": " "
+          "name": "",
+          "link": "/",
+          "copper": "",
+          "silver": "",
+          "gold": ""
         }
       ],
       "questList": [

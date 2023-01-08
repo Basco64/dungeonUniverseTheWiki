@@ -27,7 +27,11 @@ export default function fighterJewelryset(props) {
   return (
     <>
       <StuffNavbar />
-
+      <Box align={"center"}>
+        <Text as={"u"} fontWeight={"bold"}>
+          For more details, click on the image.
+        </Text>
+      </Box>
       <Flex my={10}>
         {jewelrySet.map((set) => {
           let rarityShadow;

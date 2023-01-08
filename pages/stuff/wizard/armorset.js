@@ -27,6 +27,11 @@ export default function jewelryset(props) {
   return (
     <>
       <StuffNavbar />
+      <Box align={"center"}>
+        <Text as={"u"} fontWeight={"bold"}>
+          For more details, click on the image.
+        </Text>
+      </Box>
       <Flex my={10}>
         {armorSet.map((set) => {
           let rarityShadow;

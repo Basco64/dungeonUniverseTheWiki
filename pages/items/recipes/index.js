@@ -69,17 +69,19 @@ export default function Index(props) {
                             <Grid templateColumns="repeat(4, 1fr)" gap={6}>
                               <Text as={"b"}>Loot on :</Text>
                               {recipe.lootOn.map((pnj) => (
-                                <Link href={pnj.link}>
-                                  {pnj.NPC ? (
-                                    <Text key={pnj.id} color="green" as={"b"}>
-                                      {pnj.name}
-                                    </Text>
-                                  ) : (
-                                    <Text key={pnj.id} color="red" as={"b"}>
-                                      {pnj.name}
-                                    </Text>
-                                  )}
-                                </Link>
+                                <Box key={pnj.id}>
+                                  <Link href={pnj.link}>
+                                    {pnj.NPC ? (
+                                      <Text key={pnj.id} color="green" as={"b"}>
+                                        {pnj.name}
+                                      </Text>
+                                    ) : (
+                                      <Text key={pnj.id} color="red" as={"b"}>
+                                        {pnj.name}
+                                      </Text>
+                                    )}
+                                  </Link>
+                                </Box>
                               ))}
                             </Grid>
                           </Box>
@@ -119,17 +121,19 @@ export default function Index(props) {
                             <Grid templateColumns="repeat(4, 1fr)" gap={6}>
                               <Text as={"b"}>Loot on :</Text>
                               {recipe.lootOn.map((pnj) => (
-                                <Link href={pnj.link}>
-                                  {pnj.NPC ? (
-                                    <Text key={pnj.id} color="green" as={"b"}>
-                                      {pnj.name}
-                                    </Text>
-                                  ) : (
-                                    <Text key={pnj.id} color="red" as={"b"}>
-                                      {pnj.name}
-                                    </Text>
-                                  )}
-                                </Link>
+                                <Box key={pnj.id}>
+                                  <Link href={pnj.link}>
+                                    {pnj.NPC ? (
+                                      <Text key={pnj.id} color="green" as={"b"}>
+                                        {pnj.name}
+                                      </Text>
+                                    ) : (
+                                      <Text key={pnj.id} color="red" as={"b"}>
+                                        {pnj.name}
+                                      </Text>
+                                    )}
+                                  </Link>
+                                </Box>
                               ))}
                             </Grid>
                           </Box>
@@ -168,17 +172,19 @@ export default function Index(props) {
                             <Grid templateColumns="repeat(4, 1fr)" gap={6}>
                               <Text as={"b"}>Loot on :</Text>
                               {recipe.lootOn.map((pnj) => (
-                                <Link href={pnj.link}>
-                                  {pnj.NPC ? (
-                                    <Text key={pnj.id} color="green" as={"b"}>
-                                      {pnj.name}
-                                    </Text>
-                                  ) : (
-                                    <Text key={pnj.id} color="red" as={"b"}>
-                                      {pnj.name}
-                                    </Text>
-                                  )}
-                                </Link>
+                                <Box key={pnj.id}>
+                                  <Link href={pnj.link}>
+                                    {pnj.NPC ? (
+                                      <Text color="green" as={"b"}>
+                                        {pnj.name}
+                                      </Text>
+                                    ) : (
+                                      <Text color="red" as={"b"}>
+                                        {pnj.name}
+                                      </Text>
+                                    )}
+                                  </Link>
+                                </Box>
                               ))}
                             </Grid>
                           </Box>

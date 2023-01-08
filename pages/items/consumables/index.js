@@ -53,17 +53,19 @@ export default function Index(props) {
                   </Box>
                   <Grid templateColumns="repeat(3, 1fr)" gap={6}>
                     {consumable.source.map((source) => (
-                      <Link href={source.link}>
-                        {source.enemi ? (
-                          <Text key={source.id} as={"b"} color="red">
-                            {source.name}
-                          </Text>
-                        ) : (
-                          <Text key={source.id} as={"b"} color="green">
-                            {source.name}
-                          </Text>
-                        )}
-                      </Link>
+                      <Box key={source.id}>
+                        <Link href={source.link}>
+                          {source.enemi ? (
+                            <Text as={"b"} color="red">
+                              {source.name}
+                            </Text>
+                          ) : (
+                            <Text as={"b"} color="green">
+                              {source.name}
+                            </Text>
+                          )}
+                        </Link>
+                      </Box>
                     ))}
                   </Grid>
                 </PopoverContent>

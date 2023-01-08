@@ -39,7 +39,7 @@ export default function Scout() {
                   height={65}
                   borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3" align={"center"} align={"center"}>
+                <Stack mt="6" spacing="3" align={"center"}>
                   <Heading>Basic Shot</Heading>
                   <Text mx={"auto"}>Require level 1</Text>
                 </Stack>
