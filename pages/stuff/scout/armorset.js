@@ -20,9 +20,7 @@ import {
 } from "@chakra-ui/react";
 
 export default function scoutArmorSet(props) {
-  const stuff = props.data;
-
-  const armorSet = stuff[2].ArmorSet;
+  const armorSet = props.data;
 
   return (
     <>
@@ -227,7 +225,7 @@ export default function scoutArmorSet(props) {
 
 export async function getStaticProps() {
   const res = await import(`/data/StuffScout.json`);
-  const data = res.data;
+  const data = res.data[2].ArmorSet;
 
   return {
     props: {

@@ -20,9 +20,7 @@ import {
 import StuffNavbar from "../../../components/subNavbar/StuffFighterNavbar";
 
 export default function fighterJewelryOffset(props) {
-  const stuff = props.data;
-
-  const jewelryOffSet = stuff[1].JewelryOffSet;
+  const jewelryOffSet = props.data;
 
   return (
     <>
@@ -73,26 +71,28 @@ export default function fighterJewelryOffset(props) {
                 </Popover>
               </CardHeader>
               <CardBody>
-                <VStack spacing={12}>
+                <VStack spacing={8}>
                   <Heading size="md" color={rarityName}>
                     {set.name}
                   </Heading>
                   <Text as={"b"}>
                     {set.rarity} {set.slot}
                   </Text>
-                  <Text as={"b"}>Require lvl {set.levelForEquip}</Text>
+                  <Text as={"b"} mb={5}>
+                    Require lvl {set.levelForEquip}
+                  </Text>
+
+                  {set.NFT ? (
+                    <Image
+                      src={"/enjinCoin.png"}
+                      width={"30"}
+                      height={"30"}
+                      alt={"NFT"}
+                    />
+                  ) : (
+                    ""
+                  )}
                 </VStack>
-                {set.NFT ? (
-                  <Image
-                    src={"/enjinCoin.png"}
-                    width={"40"}
-                    height={"40"}
-                    className={"mt-3"}
-                    alt={"NFT"}
-                  />
-                ) : (
-                  ""
-                )}
               </CardBody>
             </Card>
           );
@@ -104,7 +104,7 @@ export default function fighterJewelryOffset(props) {
 
 export async function getStaticProps() {
   const res = await import(`/data/StuffFighter.json`);
-  const data = res.data;
+  const data = res.data[1].JewelryOffSet;
 
   return {
     props: {

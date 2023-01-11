@@ -91,6 +91,18 @@ export default function StuffNav() {
               Jewelry Off Set
             </MenuItem>
           </Link>
+          <Link href="/stuff/fighter/weapon">
+            <MenuItem
+              color="white"
+              bg={"#262626"}
+              _hover={{
+                bg: "#171717",
+              }}
+            >
+              {" "}
+              Weapon & Shield
+            </MenuItem>
+          </Link>
         </MenuGroup>
 
         <MenuGroup
@@ -145,6 +157,18 @@ export default function StuffNav() {
               Jewelry Off Set
             </MenuItem>
           </Link>
+          <Link href="/stuff/scout/weapon">
+            <MenuItem
+              color="white"
+              bg={"#262626"}
+              _hover={{
+                bg: "#171717",
+              }}
+            >
+              {" "}
+              Weapon
+            </MenuItem>
+          </Link>
         </MenuGroup>
 
         <MenuGroup
@@ -197,6 +221,17 @@ export default function StuffNav() {
             >
               {" "}
               Jewelry Off Set
+            </MenuItem>
+          </Link>
+          <Link href="/stuff/wizard/weapon">
+            <MenuItem
+              color="white"
+              bg={"#262626"}
+              _hover={{
+                bg: "#171717",
+              }}
+            >
+              Weapon
             </MenuItem>
           </Link>
         </MenuGroup>

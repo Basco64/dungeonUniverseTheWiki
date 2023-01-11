@@ -13,7 +13,7 @@ const fonts = {
 };
 
 const overrides = {
-  initialColorMode: "light",
+  initialColorMode: "dark",
   useSystemColorMode: true,
   ...chakraTheme,
   fonts,

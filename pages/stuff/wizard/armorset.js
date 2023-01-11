@@ -19,10 +19,8 @@ import {
   Portal,
 } from "@chakra-ui/react";
 
-export default function jewelryset(props) {
-  const stuff = props.data;
-
-  const armorSet = stuff[2].ArmorSet;
+export default function WizardArmorSet(props) {
+  const armorSet = props.data;
 
   return (
     <>
@@ -227,7 +225,7 @@ export default function jewelryset(props) {
 
 export async function getStaticProps() {
   const res = await import(`/data/StuffWizard.json`);
-  const data = res.data;
+  const data = res.data[2].ArmorSet;
 
   return {
     props: {

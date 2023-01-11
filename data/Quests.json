@@ -10,7 +10,18 @@
       "main": true,
       "repeat": false,
       "objectif": "Hunt Wolfs around the village and obtain wolf meat.",
-      "description": "Greetings fellow traveller! \n My name is Grace and I am village chief.Before we continue I have a huge favor to ask you.Our village has been running low on meat becauseof recent bandit raids.Would you be kind enough to gather some wolf meat from nearby wolfs."
+      "description": "Greetings fellow traveller! \n My name is Grace and I am village chief.Before we continue I have a huge favor to ask you.Our village has been running low on meat becauseof recent bandit raids.Would you be kind enough to gather some wolf meat from nearby wolfs.",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "2",
@@ -21,7 +32,18 @@
       "main": false,
       "repeat": false,
       "objectif": "Help Grace and Minato with farm tasks.",
-      "description": "We have been really buse lately with farm expansion and because of that we have felt behind with some of the tasks.You seem like a type of person that could help us out. What do you say? I'll reward you with some really delicious homemade bread."
+      "description": "We have been really buse lately with farm expansion and because of that we have felt behind with some of the tasks.You seem like a type of person that could help us out. What do you say? I'll reward you with some really delicious homemade bread.",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "3",
@@ -32,7 +54,18 @@
       "main": true,
       "repeat": false,
       "objectif": "Follow the road up north west and talk with fisherman Sebastian located by the river.",
-      "description": "Thank you very much for your generous help traveler.I have one more favor to ask you. Would you mind delivering this piece of meat to my brother.His name is Sebastian, he is the fisherman living Northwest of village."
+      "description": "Thank you very much for your generous help traveler.I have one more favor to ask you. Would you mind delivering this piece of meat to my brother.His name is Sebastian, he is the fisherman living Northwest of village.",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "4",
@@ -43,7 +76,18 @@
       "main": false,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "5",
@@ -54,7 +98,18 @@
       "main": true,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "6",
@@ -65,7 +120,18 @@
       "main": true,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "7",
@@ -76,7 +142,18 @@
       "main": false,
       "repeat": true,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "8",
@@ -87,7 +164,18 @@
       "main": false,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "9",
@@ -98,7 +186,18 @@
       "main": true,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "10",
@@ -109,7 +208,18 @@
       "main": false,
       "repeat": true,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "11",
@@ -120,7 +230,18 @@
       "main": true,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "12",
@@ -131,7 +252,18 @@
       "main": true,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "13",
@@ -142,7 +274,18 @@
       "main": false,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "14",
@@ -153,7 +296,18 @@
       "main": false,
       "repeat": true,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "15",
@@ -164,7 +318,18 @@
       "main": false,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     },
     {
       "id": "16",
@@ -175,7 +340,18 @@
       "main": false,
       "repeat": false,
       "objectif": "",
-      "description": ""
+      "description": "",
+      "gold":"0",
+      "silver":"",
+      "copper":"",
+      "loot":[
+        {
+          "id":"1",
+          "name":"Angry toads",
+          "miniPic":"",
+          "link":""
+        }
+      ]
     }
   ]
 }

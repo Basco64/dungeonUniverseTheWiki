@@ -20,9 +20,7 @@ import {
 } from "@chakra-ui/react";
 
 export default function fighterJewelryset(props) {
-  const stuff = props.data;
-
-  const jewelrySet = stuff[3].JewelrySet;
+  const jewelrySet = props.data;
 
   return (
     <>
@@ -136,7 +134,7 @@ export default function fighterJewelryset(props) {
               <CardFooter>
                 <Image
                   src={set.setPic}
-                  width={594}
+                  width={610}
                   height={115}
                   className={"mt-3 "}
                   alt={"Pic"}
@@ -152,7 +150,7 @@ export default function fighterJewelryset(props) {
 
 export async function getStaticProps() {
   const res = await import(`/data/StuffFighter.json`);
-  const data = res.data;
+  const data = res.data[3].JewelrySet;
 
   return {
     props: {

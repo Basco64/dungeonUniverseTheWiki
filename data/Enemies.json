@@ -11,7 +11,7 @@
         { "id": "1", "name": "Wolf", "link": "/enemies/1" },
         { "id": "2", "name": "Grace", "link": "/NPC/1" }
       ],
-      "pic": "/Enemies/Wolf.png"
+      "pic": "/Enemies/Pic/Wolf.png"
     },
     {
       "id": "2",
@@ -23,7 +23,7 @@
         { "id": "1", "name": "Wolf", "link": "/enemies/1" },
         { "id": "2", "name": "Grace", "link": "/NPC/1" }
       ],
-      "pic": "/Enemies/SmallSpider.png"
+      "pic": "/Enemies/Pic/SmallSpider.png"
     },
     {
       "id": "3",
@@ -35,7 +35,7 @@
         { "id": "1", "name": "Wolf", "link": "/enemies/1" },
         { "id": "2", "name": "Grace", "link": "/NPC/1" }
       ],
-      "pic": "/Enemies/Bandit.png"
+      "pic": "/Enemies/Pic/Bandit.png"
     },
     {
       "id": "4",
@@ -47,7 +47,7 @@
         { "id": "1", "name": "Wolf", "link": "/enemies/1" },
         { "id": "2", "name": "Grace", "link": "/NPC/1" }
       ],
-      "pic": "/Enemies/BanditLeader.png"
+      "pic": "/Enemies/Pic/BanditLeader.png"
     },
     {
       "id": "5",
@@ -59,7 +59,7 @@
         { "id": "1", "name": "Wolf", "link": "/enemies/1" },
         { "id": "2", "name": "Grace", "link": "/NPC/1" }
       ],
-      "pic": "/Enemies/Ursus.png"
+      "pic": "/Enemies/Pic/Ursus.png"
     },
     {
       "id": "6",
@@ -71,7 +71,7 @@
         { "id": "1", "name": "Wolf", "link": "/enemies/1" },
         { "id": "2", "name": "Grace", "link": "/NPC/1" }
       ],
-      "pic": "/Enemies/SmallToad.png"
+      "pic": "/Enemies/Pic/SmallToad.png"
     },
     {
       "id": "7",
@@ -83,7 +83,7 @@
         { "id": "1", "name": "Wolf", "link": "/enemies/1" },
         { "id": "2", "name": "Grace", "link": "/NPC/1" }
       ],
-      "pic": "/Enemies/ValleyEagle.png"
+      "pic": "/Enemies/Pic/ValleyEagle.png"
     }
   ]
 }
