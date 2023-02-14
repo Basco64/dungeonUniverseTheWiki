@@ -11,7 +11,10 @@
           "slot": "Neck",
           "name": "Stuff de base",
           "stuffPic": "/Stuff/Common/OffSet/NecklaceOfUrsus.png",
-          "stuffPicMini": "/Stuff/Common/OffSet/NecklaceOfUrsusMini.png"
+          "stuffPicMini": "/Stuff/Common/OffSet/NecklaceOfUrsusMini.png",
+          "loot": true,
+          "lootOn": "",
+          "recipe": ""
         }
       ]
     },
@@ -25,7 +28,10 @@
           "name": "Supporter Necklace",
           "slot": "Neck",
           "stuffPic": "/Stuff/Common/OffSet/SupporterNecklace.png",
-          "stuffPicMini": "/Stuff/Common/OffSet/SupporterNecklaceMini.png"
+          "stuffPicMini": "/Stuff/Common/OffSet/SupporterNecklaceMini.png",
+          "loot": true,
+          "lootOn": "",
+          "recipe": ""
         },
         {
           "id": "2",
@@ -35,7 +41,10 @@
           "name": "Necklace Of Ursus",
           "slot": "Neck",
           "stuffPic": "/Stuff/Common/OffSet/NecklaceOfUrsus.png",
-          "stuffPicMini": "/Stuff/Common/OffSet/NecklaceOfUrsusMini.png"
+          "stuffPicMini": "/Stuff/Common/OffSet/NecklaceOfUrsusMini.png",
+          "loot": true,
+          "lootOn": "",
+          "recipe": ""
         }
       ]
     },
@@ -43,27 +52,35 @@
       "ArmorSet": [
         {
           "id": "1",
+          "NFT": true,
+          "loot": true,
           "name": "Midcreed Fighter Set T1",
           "rarity": "Uncommon",
           "levelForEquip": "12",
           "head": "Midcreek plate hood",
           "headPic": "/Stuff/Fighter/ArmorSet/T1/Head.png",
           "headPicMini": "/Stuff/Fighter/ArmorSet/T1/HeadMini.png",
+          "headLoot": "",
           "shoulders": "Midcreek plate shoulders",
           "shouldersPic": "/Stuff/Fighter/ArmorSet/T1/Shoulders.png",
           "shouldersPicMini": "/Stuff/Fighter/ArmorSet/T1/ShouldersMini.png",
+          "shouldersLoot": "",
           "chest": "Midcreek plate chest",
           "chestPic": "/Stuff/Fighter/ArmorSet/T1/Chest.png",
           "chestPicMini": "/Stuff/Fighter/ArmorSet/T1/ChestMini.png",
+          "chestLoot": "",
           "gloves": "Midcreek plate gloves",
           "glovesPic": "/Stuff/Fighter/ArmorSet/T1/Gloves.png",
           "glovesPicMini": "/Stuff/Fighter/ArmorSet/T1/GlovesMini.png",
+          "glovesLoot": "",
           "legs": "Midcreek plate pants",
           "legsPic": "/Stuff/Fighter/ArmorSet/T1/Legs.png",
           "legsPicMini": "/Stuff/Fighter/ArmorSet/T1/LegsMini.png",
+          "legsLoot": "",
           "feet": "Midcreek plate boots",
           "feetPic": "/Stuff/Fighter/ArmorSet/T1/Feet.png",
           "feetPicMini": "/Stuff/Fighter/ArmorSet/T1/FeetMini.png",
+          "feetLoot": "",
           "setPic": "/Stuff/Fighter/ArmorSet/T1/Set.png"
         }
       ]
@@ -72,19 +89,45 @@
       "JewelrySet": [
         {
           "id": "1",
+          "NFT": false,
+          "loot": false,
           "rarity": "Common",
           "levelForEquip": "10",
           "name": "Fighter Copper Jewelry Set",
           "neck": "Fighter Copper Necklace",
           "neckPic": "/Stuff/Fighter/JewelSet/CopperSet/Neck.png",
           "neckPicMini": "/Stuff/Common/Set/CopperSet/Neck.png",
+          "neckLoot": "",
           "ring": "Fighter Copper Ring",
           "ringPic": "/Stuff/Fighter/JewelSet/CopperSet/Ring.png",
           "ringPicMini": "/Stuff/Common/Set/CopperSet/Ring.png",
+          "ringLoot": "",
           "earring": "Fighter Copper Earring",
           "earringPic": "/Stuff/Fighter/JewelSet/CopperSet/Earring.png",
           "earringPicMini": "/Stuff/Common/Set/CopperSet/Earring.png",
+          "earringLoot": "",
           "setPic": "/Stuff/Fighter/JewelSet/CopperSet/Set.png"
+        },
+        {
+          "id": "2",
+          "NFT": true,
+          "loot": true,
+          "rarity": "Uncommon",
+          "levelForEquip": "15",
+          "name": "Jewelry Set of the Hawk",
+          "neck": " Necklace of the Hawk",
+          "neckPic": "/Stuff/Common/Set/HawkSet/Neck.png",
+          "neckPicMini": "/Stuff/Common/Set/HawkSet/NeckMini.png",
+          "neckLoot": "",
+          "ring": "Ring of the Hawk",
+          "ringPic": "/Stuff/Common/Set/HawkSet/Ring.png",
+          "ringPicMini": "/Stuff/Common/Set/HawkSet/RingMini.png",
+          "ringLoot": "",
+          "earring": " Earring of the Hawk",
+          "earringPic": "/Stuff/Common/Set/HawkSet/Earring.png",
+          "earringPicMini": "/Stuff/Common/Set/HawkSet/EarringMini.png",
+          "earringLoot": "",
+          "setPic": "/Stuff/Common/Set/HawkSet/Set.png"
         }
       ]
     },

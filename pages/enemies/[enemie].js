@@ -1,6 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Flex, Box, Text, Heading, VStack } from "@chakra-ui/react";
+import {
+  Flex,
+  Box,
+  Text,
+  Heading,
+  VStack,
+  StackDivider,
+  HStack,
+} from "@chakra-ui/react";
 
 export default function enemie(props) {
   const selectEnemie = props.selectedEnemie;
@@ -26,18 +34,33 @@ export default function enemie(props) {
             <Box>
               <Heading pb={5}>Loot</Heading>
             </Box>
-            <Box>
+            <VStack
+              divider={<StackDivider borderColor="gray.200" />}
+              spacing={2}
+              align="stretch"
+            >
               {selectEnemie.loot.map((loot) => (
                 <Box key={loot.id}>
-                  <Link href={loot.link}>
-                    <Text as={"b"} p={3}>
-                      {" "}
-                      {loot.name}
-                    </Text>
-                  </Link>
+                      <Link href={loot.link}>
+                    <HStack key={loot.id}>
+                      <Box>
+                        <Image
+                            src={loot.miniPic}
+                            width={65}
+                            height={65}
+                            alt="miniPic"
+                          />
+                          </Box>
+                          <Box>
+                          <Text as={"b"} p={3}>
+                            {loot.name}
+                          </Text>
+                          </Box>
+                    </HStack>
+                      </Link>
                 </Box>
               ))}
-            </Box>
+            </VStack>
           </VStack>
         </Box>
         <Box>

@@ -56,7 +56,7 @@ export default function Wizard() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/FireBallMini.png"
+                  src="/Player/Wizard/fireBallMini.png"
                   alt="basic spell mini"
                   width={65}
                   height={65}

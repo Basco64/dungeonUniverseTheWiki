@@ -6,9 +6,10 @@
       "name": "Bread",
       "effects": " Heal 180 HP in 30 sec.",
       "craft": false,
-      "source": [
-        { "id": "1", "enemi": true, "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "enemi": false, "name": "Grace", "link": "/NPC/1" }
+      "buyFrom": [],
+      "lootOn": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2",  "name": "Grace", "link": "/NPC/1" }
       ],
       "pic": "/Consumable/Brain.png"
     },
@@ -17,10 +18,11 @@
       "name": "Milk",
       "effects": "Regen 180 MP in 30 sec.",
       "craft": false,
-      "source": [
-        { "id": "1", "enemi": true, "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "enemi": false, "name": "Grace", "link": "/NPC/1" }
+      "buyFrom": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2",  "name": "Grace", "link": "/NPC/1" }
       ],
+      "lootOn": [],
       "pic": "/Consumable/Milk.png"
     },
     {
@@ -28,9 +30,13 @@
       "name": "Linen Bandage",
       "effects": "Heal 180 HP in 6 sec.",
       "craft": true,
-      "source": [
-        { "id": "1", "enemi": true, "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "enemi": false, "name": "Grace", "link": "/NPC/1" }
+      "buyFrom": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+      ],
+      "lootOn": [
+        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
+        { "id": "2",  "name": "Grace", "link": "/NPC/1" }
       ],
       "pic": "/Consumable/LinenBandage.png"
     }

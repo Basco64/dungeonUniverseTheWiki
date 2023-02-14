@@ -1,18 +1,3 @@
-Pics:
+A wiki for the Dungeon Universe game, the base is done, more than filling in the json files and the images, when the team will send me the necessary data.
 
-      miniSpell = 65*65
-      Spell = 600*230
-
-      Enemi = 250*350
-
-      NPC = 350*550
-      shop = 550*550
-
-      Junk = 75*75
-
-      Stuff :
-        -MiniStuff = 65*65
-        -Stuff = 605*620
-        -Set bonus = 605*190
-
-      Icons = 144*144
+Stack used : NextJS: v13.1.1 (not new beta app directory) + ChakraUi: v2.4.6

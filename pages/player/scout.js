@@ -28,7 +28,7 @@ export default function Scout() {
             <Text>
               Int <ChevronRightIcon /> crit <ChevronRightIcon /> endu{" "}
             </Text>
-          </Box>{" "}
+          </Box>
           <SimpleGrid columns={3} spacing={10}>
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>

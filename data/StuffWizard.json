@@ -43,6 +43,7 @@
       "ArmorSet": [
         {
           "id": "1",
+          "NFT": true,
           "name": "Midcreed Wizard Set T1",
           "rarity": "Uncommon",
           "levelForEquip": "12",
@@ -72,19 +73,37 @@
       "JewelrySet": [
         {
           "id": "1",
+          "NFT": false,
           "rarity": "Common",
           "levelForEquip": "10",
           "name": "Wizard Copper Jewelry Set",
-          "neck": "tete",
+          "neck": "Wizard Copper Necklace",
           "neckPic": "/Stuff/Wizard/JewelSet/CopperSet/Neck.png",
           "neckPicMini": "/Stuff/Common/Set/CopperSet/Neck.png",
-          "ring": "epaules",
+          "ring": "Wizard Copper Ring",
           "ringPic": "/Stuff/Wizard/JewelSet/CopperSet/Ring.png",
           "ringPicMini": "/Stuff/Common/Set/CopperSet/Ring.png",
-          "earring": "torse",
+          "earring": "Wizard Copper Earring",
           "earringPic": "/Stuff/Wizard/JewelSet/CopperSet/Earring.png",
           "earringPicMini": "/Stuff/Common/Set/CopperSet/Earring.png",
           "setPic": "/Stuff/Wizard/JewelSet/CopperSet/Set.png"
+        },
+        {
+          "id": "2",
+          "NFT": true,
+          "rarity": "Uncommon",
+          "levelForEquip": "15",
+          "name": "Jewelry Set of the Hawk",
+          "neck": " Necklace of the Hawk",
+          "neckPic": "/Stuff/Common/Set/HawkSet/Neck.png",
+          "neckPicMini": "/Stuff/Common/Set/HawkSet/NeckMini.png",
+          "ring": "Ring of the Hawk",
+          "ringPic": "/Stuff/Common/Set/HawkSet/Ring.png",
+          "ringPicMini": "/Stuff/Common/Set/HawkSet/RingMini.png",
+          "earring": " Earring of the Hawk",
+          "earringPic": "/Stuff/Common/Set/HawkSet/Earring.png",
+          "earringPicMini": "/Stuff/Common/Set/HawkSet/EarringMini.png",
+          "setPic": "/Stuff/Common/Set/HawkSet/Set.png"
         }
       ]
     },

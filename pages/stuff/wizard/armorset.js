@@ -51,6 +51,17 @@ export default function WizardArmorSet(props) {
                 <Heading size="md" color={rarityName}>
                   {set.name}
                 </Heading>
+                {set.NFT ? (
+                  <Image
+                    src={"/enjinCoin.png"}
+                    width={"30"}
+                    height={"30"}
+                    alt={"NFT"}
+                    my={3}
+                  />
+                ) : (
+                  ""
+                )}
                 <Text>Full set require lvl {set.levelForEquip}</Text>
               </CardHeader>
               <CardBody align={"center"}>

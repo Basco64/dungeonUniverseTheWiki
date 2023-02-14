@@ -74,7 +74,7 @@ export default function ItemNav() {
           </MenuItem>
         </Link>
 
-        <Link href="/items/questitems">
+        {/* <Link href="/items/questitems">
           <MenuItem
             color="white"
             bg={"#262626"}
@@ -84,7 +84,7 @@ export default function ItemNav() {
           >
             Quest Items
           </MenuItem>
-        </Link>
+        </Link> */}
 
         <Link href="/items/recipes">
           <MenuItem

@@ -1,0 +1,18 @@
+Pics:
+
+      miniSpell = 65*65
+      Spell = 600*230
+
+      Enemi = 250*350
+
+      NPC = 350*550
+      shop = 550*550
+
+      Junk = 75*75
+
+      Stuff :
+        -MiniStuff = 65*65
+        -Stuff = 605*620
+        -Set bonus = 605*190
+
+      Icons = 144*144

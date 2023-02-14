@@ -5,21 +5,22 @@
       "id": "1",
       "name": "Village Introduction",
       "getter": "Grace",
-      "getterPic": "/NPC/Grace.png",
       "getterLink": "/NPC/1",
+      "setter": "Grace",
+      "setterLink": "/NPC/1",
       "main": true,
       "repeat": false,
       "objectif": "Hunt Wolfs around the village and obtain wolf meat.",
       "description": "Greetings fellow traveller! \n My name is Grace and I am village chief.Before we continue I have a huge favor to ask you.Our village has been running low on meat becauseof recent bandit raids.Would you be kind enough to gather some wolf meat from nearby wolfs.",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -27,21 +28,22 @@
       "id": "2",
       "name": "Farming tasks",
       "getter": "Grace",
-      "getterPic": "/NPC/Grace.png",
       "getterLink": "/NPC/1",
+      "setter": "Grace",
+      "setterLink": "/NPC/1",
       "main": false,
       "repeat": false,
       "objectif": "Help Grace and Minato with farm tasks.",
       "description": "We have been really buse lately with farm expansion and because of that we have felt behind with some of the tasks.You seem like a type of person that could help us out. What do you say? I'll reward you with some really delicious homemade bread.",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -49,21 +51,23 @@
       "id": "3",
       "name": "Old fisherman",
       "getter": "Minato",
-      "getterPic": "/NPC/Minato.png",
       "getterLink": "/NPC/2",
+      "setter": "Sebastian",
+      "setterLink": "/NPC/3",
       "main": true,
       "repeat": false,
       "objectif": "Follow the road up north west and talk with fisherman Sebastian located by the river.",
       "description": "Thank you very much for your generous help traveler.I have one more favor to ask you. Would you mind delivering this piece of meat to my brother.His name is Sebastian, he is the fisherman living Northwest of village.",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -77,15 +81,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -99,15 +104,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -121,15 +127,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -143,15 +150,16 @@
       "repeat": true,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -165,15 +173,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -187,15 +196,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -209,15 +219,16 @@
       "repeat": true,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -231,15 +242,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -253,15 +265,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -275,15 +288,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -297,15 +311,16 @@
       "repeat": true,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -319,15 +334,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     },
@@ -341,15 +357,16 @@
       "repeat": false,
       "objectif": "",
       "description": "",
-      "gold":"0",
-      "silver":"",
-      "copper":"",
-      "loot":[
+      "gold": "0",
+      "silver": "",
+      "copper": "",
+      "loot": false,
+      "reward": [
         {
-          "id":"1",
-          "name":"Angry toads",
-          "miniPic":"",
-          "link":""
+          "id": "1",
+          "name": "Angry toads",
+          "miniPic": "",
+          "link": ""
         }
       ]
     }

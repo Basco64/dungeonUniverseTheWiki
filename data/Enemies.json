@@ -8,8 +8,12 @@
       "levels": "1-2",
       "health": "80-125",
       "loot": [
-        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+        { "id": "1", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "2", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "3",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "4",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "5", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "6", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  }
       ],
       "pic": "/Enemies/Pic/Wolf.png"
     },
@@ -20,8 +24,12 @@
       "levels": "3-5",
       "health": "180-320",
       "loot": [
-        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+        { "id": "1", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "2", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "3",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "4",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "5", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "6", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  }
       ],
       "pic": "/Enemies/Pic/SmallSpider.png"
     },
@@ -32,8 +40,12 @@
       "levels": "5-7",
       "health": "320-500",
       "loot": [
-        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+        { "id": "1", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "2", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "3",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "4",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "5", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "6", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  }
       ],
       "pic": "/Enemies/Pic/Bandit.png"
     },
@@ -44,8 +56,12 @@
       "levels": "10",
       "health": "1245",
       "loot": [
-        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+        { "id": "1", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "2", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "3",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "4",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "5", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "6", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  }
       ],
       "pic": "/Enemies/Pic/BanditLeader.png"
     },
@@ -56,8 +72,12 @@
       "levels": "12",
       "health": "5125",
       "loot": [
-        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+        { "id": "1", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "2", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "3",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "4",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "5", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "6", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  }
       ],
       "pic": "/Enemies/Pic/Ursus.png"
     },
@@ -68,8 +88,12 @@
       "levels": "8-10",
       "health": "605-845",
       "loot": [
-        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+        { "id": "1", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "2", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "3",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "4",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "5", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "6", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  }
       ],
       "pic": "/Enemies/Pic/SmallToad.png"
     },
@@ -80,8 +104,12 @@
       "levels": "11-13",
       "health": "605-845",
       "loot": [
-        { "id": "1", "name": "Wolf", "link": "/enemies/1" },
-        { "id": "2", "name": "Grace", "link": "/NPC/1" }
+        { "id": "1", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "2", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "3",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "4",  "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1" },
+        { "id": "5", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  },
+        { "id": "6", "name":"Wolf Fur","miniPic": "/Junk/WolfFur.png","link":"/items/junks/1"  }
       ],
       "pic": "/Enemies/Pic/ValleyEagle.png"
     }

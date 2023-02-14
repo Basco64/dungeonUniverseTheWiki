@@ -1,7 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Flex, Box, Text, Heading, VStack } from "@chakra-ui/react";
+import {
+  Flex,
+  Box,
+  Text,
+  Heading,
+  VStack,
+  Stack,
+  HStack,
+} from "@chakra-ui/react";
 
 export default function quest(props) {
   const selectQuest = props.selectedQuest;
@@ -25,8 +33,8 @@ export default function quest(props) {
 
   return (
     <Flex>
-      <VStack>
-        <Box p={4} m={5}>
+      <HStack>
+        <Box p={4} m={5} w={"50%"}>
           {result}
           <Text m={5}>{selectQuest.objectif}</Text>
           <Box>
@@ -36,18 +44,28 @@ export default function quest(props) {
             {selectQuest.description}
           </Box>
         </Box>
-        <Box m={5}>Loot de la quete</Box>
+        <Box m={5} w={"30%"}>
+          Reward :
+        </Box>
+      </HStack>
+      <VStack w={"20%"}>
+        <Box fontWeight="bold" fontSize={"xl"}>
+          <Text>Pick up at : </Text>
+          <Link href={selectQuest.getterLink}  as='u'>
+            <Text as={"u"}>
+                {selectQuest.getter}
+              </Text>
+          </Link>
+        </Box>
+        <Box fontWeight="bold" fontSize={"xl"}>
+          <Text>Return to : </Text>
+          <Link href={selectQuest.setterLink}>
+            <Text as={"u"}>
+              {selectQuest.setter}
+            </Text>
+          </Link>
+        </Box>
       </VStack>
-      <Box>
-        <Link href={selectQuest.getterLink}>
-          <Image
-            src={selectQuest.getterPic}
-            alt="Pic"
-            width={500}
-            height={500}
-          />
-        </Link>
-      </Box>
     </Flex>
   );
 }

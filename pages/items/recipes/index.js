@@ -17,6 +17,7 @@ import {
   PopoverTrigger,
   PopoverContent,
   Portal,
+  VStack,
 } from "@chakra-ui/react";
 
 export default function Index(props) {
@@ -66,23 +67,35 @@ export default function Index(props) {
                               width={600}
                               height={395}
                             />
-                            <Grid templateColumns="repeat(4, 1fr)" gap={6}>
-                              <Text as={"b"}>Loot on :</Text>
-                              {recipe.lootOn.map((pnj) => (
-                                <Box key={pnj.id}>
-                                  <Link href={pnj.link}>
-                                    {pnj.NPC ? (
-                                      <Text key={pnj.id} color="green" as={"b"}>
-                                        {pnj.name}
-                                      </Text>
-                                    ) : (
-                                      <Text key={pnj.id} color="red" as={"b"}>
-                                        {pnj.name}
-                                      </Text>
-                                    )}
-                                  </Link>
-                                </Box>
-                              ))}
+                            <Grid templateColumns="repeat(4, 1fr)" gap={2}>
+                            { recipe.lootOn.length > 0 && 
+                  <>
+                  <Text>Loot on :</Text>
+                    {recipe.lootOn.map((source) => (
+                      <VStack key={source.id}>
+                        <Link href={source.link}>
+                            <Text as={"b"} color="red">
+                              {source.name}
+                            </Text>
+                        </Link>
+                      </VStack>
+                    ))} 
+                    </>
+                    }
+                  { recipe.buyFrom.length > 0 && 
+                  <>
+                  <Text>Buy from :</Text>
+                    {recipe.buyFrom.map((source) => (
+                      <VStack key={source.id}>
+                        <Link href={source.link}>
+                            <Text as={"b"} color="green">
+                              {source.name}
+                            </Text>
+                        </Link>
+                      </VStack>
+                    ))} 
+                    </>
+                  }
                             </Grid>
                           </Box>
                         </PopoverContent>
@@ -169,24 +182,36 @@ export default function Index(props) {
                               width={600}
                               height={395}
                             />
-                            <Grid templateColumns="repeat(4, 1fr)" gap={6}>
-                              <Text as={"b"}>Loot on :</Text>
-                              {recipe.lootOn.map((pnj) => (
-                                <Box key={pnj.id}>
-                                  <Link href={pnj.link}>
-                                    {pnj.NPC ? (
-                                      <Text color="green" as={"b"}>
-                                        {pnj.name}
-                                      </Text>
-                                    ) : (
-                                      <Text color="red" as={"b"}>
-                                        {pnj.name}
-                                      </Text>
-                                    )}
-                                  </Link>
-                                </Box>
-                              ))}
-                            </Grid>
+                              <Grid templateColumns="repeat(3, 1fr)" gap={6}>
+                  { recipe.lootOn.length > 0 && 
+                  <>
+                  <Text>Loot on :</Text>
+                    {recipe.lootOn.map((source) => (
+                      <Box key={source.id}>
+                        <Link href={source.link}>
+                            <Text as={"b"} color="red">
+                              {source.name}
+                            </Text>
+                        </Link>
+                      </Box>
+                    ))} 
+                    </>
+                    }
+                  { recipe.buyFrom.length > 0 && 
+                  <>
+                  <Text>Buy from :</Text>
+                    {recipe.buyFrom.map((source) => (
+                      <Box key={source.id}>
+                        <Link href={source.link}>
+                            <Text as={"b"} color="green">
+                              {source.name}
+                            </Text>
+                        </Link>
+                      </Box>
+                    ))} 
+                    </>
+                  }
+                  </Grid>
                           </Box>
                         </PopoverContent>
                       </Portal>

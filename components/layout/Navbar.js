@@ -16,9 +16,9 @@ export default function NavBar() {
       <HeroNav />
       <EnemiesNav />
       <StuffNav />
-      <QuestNav />
-      <ItemNav />
-      <NpcNav />
+      <QuestNav /> 
+       <ItemNav /> 
+       <NpcNav />
     </Flex>
   );
 }

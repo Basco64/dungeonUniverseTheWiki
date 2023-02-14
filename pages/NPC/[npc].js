@@ -17,6 +17,7 @@ export default function npc(props) {
           <Text>Type : {selectNPC.type}</Text>
           {selectNPC.shop ? (
             <Box pt={8}>
+              <Heading as={'u'}>Start the quest:</Heading>
               {questList.map((quest) => (
                 <VStack key={quest.id}>
                   <Link href={quest.linkQuest}>
@@ -35,6 +36,7 @@ export default function npc(props) {
       <Box>
         {selectNPC.shop ? (
           <VStack>
+            <Heading as={'u'}>Item for sale</Heading>
             {" "}
             {selectNPC.shopList.map((item) => (
               <HStack key={item.id}>
@@ -61,7 +63,9 @@ export default function npc(props) {
           </VStack>
         ) : (
           <Box>
+            <Heading as={'u'}>Start the quest:</Heading>
             {questList.map((quest) => (
+              <>
               <Box key={quest.id}>
                 <Link href={quest.linkQuest}>
                   <Text fontSize="xl" as={"b"}>
@@ -69,6 +73,7 @@ export default function npc(props) {
                   </Text>
                 </Link>
               </Box>
+              </>
             ))}
           </Box>
         )}

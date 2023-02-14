@@ -11,18 +11,9 @@
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "",
           "lootOn": [
-            {
-              "id": "1",
-              "NPC": true,
-              "name": "Sophie",
-              "link": "/NPC/1"
-            },
-            {
-              "id": "2",
-              "NPC": false,
-              "name": "Wolf",
-              "link": "/enemies/1"
-            }
+            { "id": "1", "name": "Wolf","link": "/enemies/1" }
+          ],
+          "buyFrom": [ { "id": "1", "name": "Sophie", "link": "/NPC/1"  }
           ]
         },
         {
@@ -33,18 +24,9 @@
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "",
           "lootOn": [
-            {
-              "id": "1",
-              "NPC": true,
-              "name": "Sophie",
-              "link": "/NPC/1"
-            },
-            {
-              "id": "2",
-              "NPC": false,
-              "name": "Wolf",
-              "link": "/enemies/1"
-            }
+            { "id": "1", "name": "Wolf","link": "/enemies/1" }
+          ],
+          "buyFrom": [ { "id": "1", "name": "Sophie", "link": "/NPC/1"  }
           ]
         }
       ]
@@ -60,18 +42,9 @@
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "/Recipe/HeavyLinenBandageMini.png",
           "lootOn": [
-            {
-              "id": "1",
-              "NPC": true,
-              "name": "Sophie",
-              "link": "/NPC/1"
-            },
-            {
-              "id": "2",
-              "NPC": false,
-              "name": "Wolf",
-              "link": "/enemies/1"
-            }
+            { "id": "1", "name": "Wolf","link": "/enemies/1" }
+          ],
+          "buyFrom": [ { "id": "1", "name": "Sophie", "link": "/NPC/1"  }
           ]
         },
         {
@@ -82,18 +55,9 @@
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "/items/consumables",
           "lootOn": [
-            {
-              "id": "1",
-              "NPC": true,
-              "name": "Sophie",
-              "link": "/NPC/1"
-            },
-            {
-              "id": "2",
-              "NPC": false,
-              "name": "Wolf",
-              "link": "/enemies/1"
-            }
+            { "id": "1", "name": "Wolf","link": "/enemies/1" }
+          ],
+          "buyFrom": [ { "id": "1", "name": "Sophie", "link": "/NPC/1"  }
           ]
         }
       ]
@@ -109,18 +73,12 @@
           "ItemPic": "/Recipe/HeavyLinenBandage.png",
           "ItemLink": "/items/consumables",
           "lootOn": [
-            {
-              "id": "1",
-              "NPC": true,
-              "name": "Sophie",
-              "link": "/NPC/1"
-            },
-            {
-              "id": "2",
-              "NPC": false,
-              "name": "Wolf",
-              "link": "/enemies/1"
-            }
+            { "id": "1", "name": "Wolf","link": "/enemies/1" },
+            { "id": "2", "name": "Wolf","link": "/enemies/1" }
+          ],
+          "buyFrom": [
+             { "id": "1", "name": "Sophie", "link": "/NPC/1"  },
+             { "id": "2", "name": "Sophie", "link": "/NPC/1"  }
           ]
         },
         {
@@ -131,18 +89,12 @@
           "ItemPic": "/Recipe/HeavyLinenBandageMini.png",
           "ItemLink": "/Recipe/HeavyLinenBandageMini.png",
           "lootOn": [
-            {
-              "id": "1",
-              "NPC": true,
-              "name": "Sophie",
-              "link": "/NPC/1"
-            },
-            {
-              "id": "2",
-              "NPC": false,
-              "name": "Wolf",
-              "link": "/enemies/1"
-            }
+            { "id": "1", "name": "Wolf","link": "/enemies/1" },
+            { "id": "2", "name": "Wolf","link": "/enemies/1" }
+          ],
+          "buyFrom": [
+             { "id": "1", "name": "Sophie", "link": "/NPC/1"  },
+             { "id": "2", "name": "Sophie", "link": "/NPC/1"  }
           ]
         }
       ]

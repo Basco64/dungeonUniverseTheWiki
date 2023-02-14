@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import {
   Flex,
   SimpleGrid,
@@ -33,20 +32,20 @@ export default function Fighter() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/basicSpellMini.png"
-                  alt="basic spell mini"
+                  src="/#"
+                  alt="basic spell"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3" align={"center"}>
-                  <Heading>Basic Spell</Heading>
+                  <Heading></Heading>
                   <Text mx={"auto"}>Require level 1</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/basicSpell.png"
+                  src="/#"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -56,20 +55,20 @@ export default function Fighter() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/fireBallMini.png"
+                  src="/#"
                   alt="basic spell mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3" align={"center"}>
-                  <Heading>Fireball</Heading>
+                  <Heading></Heading>
                   <Text mx={"auto"}>Require level 1</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/fireBall.png"
+                  src="/#"
                   alt="basic spell"
                   width={600}
                   height={230}
@@ -79,21 +78,21 @@ export default function Fighter() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/shadowDoomMini.png"
-                  alt="basic spell mini"
+                  src="/#"
+                  alt="spell lvl 5 mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3" align={"center"}>
-                  <Heading>Shadow Doom</Heading>
+                  <Heading></Heading>
                   <Text mx={"auto"}>Require level 5</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/shadowDoom.png"
-                  alt="basic spell"
+                  src="/#"
+                  alt="spell lvl 5"
                   width={600}
                   height={230}
                 />
@@ -102,21 +101,21 @@ export default function Fighter() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/rejuvenationMini.png"
-                  alt="basic spell mini"
+                  src="/#"
+                  alt="spell lvl 10 mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3" align={"center"}>
-                  <Heading>Rejunevation</Heading>
+                  <Heading></Heading>
                   <Text mx={"auto"}>Require level 10</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/rejuvenation.png"
-                  alt="basic spell"
+                  src="/#"
+                  alt="spell lvl 10"
                   width={600}
                   height={230}
                 />
@@ -125,49 +124,49 @@ export default function Fighter() {
             <Card maxWidth="lg" variant="outline" align={"center"}>
               <CardBody>
                 <Image
-                  src="/Player/Wizard/blessMindMini.png"
-                  alt="basic spell mini"
+                  src="/#"
+                  alt="spell lvl 15 mini"
                   width={65}
                   height={65}
                   borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3" align={"center"}>
-                  <Heading>Bless Mind</Heading>
+                  <Heading></Heading>
                   <Text mx={"auto"}>Require level 15</Text>
                 </Stack>
               </CardBody>
               <CardFooter>
                 <Image
-                  src="/Player/Wizard/blessMind.png"
-                  alt="basic spell"
+                  src="/#"
+                  alt="spell lvl 15"
                   width={600}
                   height={230}
                 />
               </CardFooter>
             </Card>
-            {/* <Card maxWidth="lg" variant="outline" align={"center"}>
+            <Card maxWidth="lg" variant="outline" align={"center"}>
             <CardBody>
               <Image
-                src=" /Player/Wizard/"
-                alt="basic spell mini"
+                src="/#"
+                alt="spell lvl 20 mini"
                 width={65}
                 height={65}
                 borderRadius="lg"
               />
               <Stack mt="6" spacing="3" align={"center"}>
-                <Heading>??</Heading>
+                <Heading></Heading>
                 <Text mx={"auto"}>Require level 20</Text>
               </Stack>
             </CardBody>
             <CardFooter>
               <Image
-                src=" /Player/Wizard/"
-                alt="basic spell"
+                src="/#"
+                alt="spell lvl 20"
                 width={600}
                 height={230}
               />
             </CardFooter>
-          </Card> */}
+          </Card>
           </SimpleGrid>
         </Stack>
       </Flex>

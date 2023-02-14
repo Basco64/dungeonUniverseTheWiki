@@ -47,26 +47,37 @@ export default function Index(props) {
                 </Box>
               </VStack>
               <Portal>
-                <PopoverContent variant="subtle">
-                  <Box align={"center"}>
-                    <Text> Loot on red , buy on green.</Text>
-                  </Box>
+                <PopoverContent>
                   <Grid templateColumns="repeat(3, 1fr)" gap={6}>
-                    {consumable.source.map((source) => (
+                  { consumable.buyFrom.length > 0 && 
+                  <>
+                  <Text>Buy from :</Text>
+                    {consumable.buyFrom.map((source) => (
                       <Box key={source.id}>
                         <Link href={source.link}>
-                          {source.enemi ? (
-                            <Text as={"b"} color="red">
-                              {source.name}
-                            </Text>
-                          ) : (
                             <Text as={"b"} color="green">
                               {source.name}
                             </Text>
-                          )}
                         </Link>
                       </Box>
-                    ))}
+                    ))} 
+                    </>
+                  }
+                  { consumable.lootOn.length > 0 && 
+                  <>
+                  <Text>Loot on :</Text>
+                    {consumable.lootOn.map((source) => (
+                      <Box key={source.id}>
+                        <Link href={source.link}>
+                            <Text as={"b"} color="red">
+                              {source.name}
+                            </Text>
+                        </Link>
+                      </Box>
+                    ))} 
+                    </>
+                    }
+                 
                   </Grid>
                 </PopoverContent>
               </Portal>

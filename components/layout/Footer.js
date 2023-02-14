@@ -15,8 +15,8 @@ export default function Footer() {
       justify="center"
     >
       <Text>
-        This site is under construction, if you have data to add or you see
-        wrong data, please contact Basco#6472 on discord.
+        This site is under construction, if you want add data or see
+        wrong data, please contact Basco#6472 on Discord.
       </Text>
     </Flex>
   );
